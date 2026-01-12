@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import profileImage from "@/assets/profile-image.png";
 
 const Hero = () => {
   return (
@@ -41,10 +42,10 @@ const Hero = () => {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 max-w-xl"
             >
-              Aspiring Full Stack Developer passionate about building innovative solutions. 
-              Specialized in <span className="text-foreground font-medium">Cloud</span>, {" "}
-              <span className="text-foreground font-medium">Blockchain</span>, and{" "}
-              <span className="text-foreground font-medium">AI/ML</span> technologies.
+              Aspiring AI/ML Engineer passionate about building innovative solutions. 
+              Specialized in <span className="text-foreground font-medium">Machine Learning</span>, {" "}
+              <span className="text-foreground font-medium">Deep Learning</span>, and{" "}
+              <span className="text-foreground font-medium">Generative AI</span> technologies.
             </motion.p>
 
             <motion.div
@@ -91,7 +92,7 @@ const Hero = () => {
                 <Mail size={20} />
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/sakrishna-bikkumalla"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-secondary hover:bg-secondary/80 transition-colors"
@@ -109,12 +110,12 @@ const Hero = () => {
             className="order-1 lg:order-2 flex justify-center"
           >
             <div className="relative">
-              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-accent/20 to-accent/5 flex items-center justify-center">
-                <div className="w-56 h-56 md:w-72 md:h-72 rounded-full bg-secondary/50 backdrop-blur-sm flex items-center justify-center border border-border/50">
-                  <span className="text-6xl md:text-7xl font-heading font-bold">
-                    SK
-                  </span>
-                </div>
+              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-accent/20 to-accent/5 flex items-center justify-center p-2">
+                <img 
+                  src={profileImage} 
+                  alt="Sai Krishna Bikkumalla"
+                  className="w-full h-full rounded-full object-cover border-4 border-background shadow-2xl"
+                />
               </div>
               {/* Floating elements */}
               <motion.div
@@ -129,7 +130,7 @@ const Hero = () => {
                 transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
                 className="absolute -bottom-4 -left-4 px-4 py-2 bg-card rounded-xl border border-border shadow-lg"
               >
-                <span className="text-sm font-medium">🚀 Developer</span>
+                <span className="text-sm font-medium">🤖 AI/ML Engineer</span>
               </motion.div>
             </div>
           </motion.div>
