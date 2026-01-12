@@ -2,14 +2,15 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 const technicalSkills = [
-  { name: "C", level: 85 },
-  { name: "Python", level: 80 },
-  { name: "Java", level: 75 },
-  { name: "HTML/CSS", level: 90 },
-  { name: "JavaScript", level: 85 },
-  { name: "SQL", level: 80 },
-  { name: "AWS", level: 70 },
-  { name: "React", level: 75 },
+  "C",
+  "Python",
+  "Java",
+  "HTML/CSS",
+  "JavaScript",
+  "SQL",
+  "AWS",
+  "React",
+  "Prompt Engineering",
 ];
 
 const softSkills = [
@@ -50,28 +51,16 @@ const Skills = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <h3 className="heading-md mb-8">Technical Skills</h3>
-            <div className="space-y-6">
+            <div className="flex flex-wrap gap-4">
               {technicalSkills.map((skill, index) => (
                 <motion.div
-                  key={skill.name}
-                  initial={{ opacity: 0, x: -20 }}
-                  animate={isInView ? { opacity: 1, x: 0 } : {}}
-                  transition={{ duration: 0.4, delay: 0.3 + index * 0.1 }}
+                  key={skill}
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  animate={isInView ? { opacity: 1, scale: 1 } : {}}
+                  transition={{ duration: 0.4, delay: 0.3 + index * 0.05 }}
+                  className="px-6 py-3 glass-card hover-lift cursor-default"
                 >
-                  <div className="flex justify-between mb-2">
-                    <span className="font-medium">{skill.name}</span>
-                    <span className="text-muted-foreground text-sm">
-                      {skill.level}%
-                    </span>
-                  </div>
-                  <div className="h-2 bg-secondary rounded-full overflow-hidden">
-                    <motion.div
-                      initial={{ width: 0 }}
-                      animate={isInView ? { width: `${skill.level}%` } : {}}
-                      transition={{ duration: 1, delay: 0.5 + index * 0.1 }}
-                      className="h-full bg-gradient-to-r from-accent to-emerald-400 rounded-full"
-                    />
-                  </div>
+                  <span className="font-medium">{skill}</span>
                 </motion.div>
               ))}
             </div>

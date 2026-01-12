@@ -10,6 +10,7 @@ const projects = [
     tech: ["Python", "Flask", "HTML/CSS", "JavaScript", "Blockchain"],
     icon: Blocks,
     gradient: "from-emerald-500/20 to-teal-500/20",
+    githubLink: "https://github.com/sakrishna-bikkumalla/blockchain-product-verification-system.git",
   },
   {
     title: "Rice Mill Management System",
@@ -18,6 +19,7 @@ const projects = [
     tech: ["React", "Express.js", "SQLite", "Recharts", "REST API"],
     icon: Database,
     gradient: "from-blue-500/20 to-indigo-500/20",
+    githubLink: "https://github.com/sakrishna-bikkumalla/ricemill-management-system.git",
   },
   {
     title: "IoT WiFi Controlled Car",
@@ -26,6 +28,7 @@ const projects = [
     tech: ["Arduino", "IoT", "Blink IoT", "C++"],
     icon: Wifi,
     gradient: "from-orange-500/20 to-amber-500/20",
+    githubLink: null,
   },
 ];
 
@@ -89,14 +92,33 @@ const Projects = () => {
 
                 {/* Links */}
                 <div className="flex items-center gap-4">
-                  <button className="flex items-center gap-2 text-sm text-muted-foreground hover:text-accent transition-colors">
-                    <Github size={16} />
-                    Code
-                  </button>
-                  <button className="flex items-center gap-2 text-sm text-muted-foreground hover:text-accent transition-colors">
-                    <ExternalLink size={16} />
-                    Demo
-                  </button>
+                  {project.githubLink ? (
+                    <a 
+                      href={project.githubLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-sm text-muted-foreground hover:text-accent transition-colors"
+                    >
+                      <Github size={16} />
+                      Code
+                    </a>
+                  ) : (
+                    <span className="flex items-center gap-2 text-sm text-muted-foreground/50">
+                      <Github size={16} />
+                      Code
+                    </span>
+                  )}
+                  {project.githubLink && (
+                    <a 
+                      href={project.githubLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-sm text-muted-foreground hover:text-accent transition-colors"
+                    >
+                      <ExternalLink size={16} />
+                      Demo
+                    </a>
+                  )}
                 </div>
               </div>
             </motion.div>

@@ -1,10 +1,25 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Briefcase, GraduationCap, Award } from "lucide-react";
+import { Briefcase, GraduationCap, Award, ExternalLink } from "lucide-react";
 
 const Experience = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
+
+  const certifications = [
+    {
+      name: "MATLAB Onramp",
+      link: "https://drive.google.com/file/d/16eKeVwHjC044LVuXkDxqflLX3Duep5F5/view?usp=sharing",
+    },
+    {
+      name: "Kaggle - Python",
+      link: "https://drive.google.com/file/d/1u9Tax7PoC_9RFfU9hrYnRSrbC-cXI3KR/view?usp=sharing",
+    },
+    {
+      name: "AWS Certification",
+      link: null,
+    },
+  ];
 
   return (
     <section id="experience" className="section-padding" ref={ref}>
@@ -37,30 +52,68 @@ const Experience = () => {
               <h3 className="heading-md">Experience</h3>
             </div>
 
-            <div className="glass-card p-6 hover-lift">
-              <div className="flex items-start justify-between mb-4">
-                <div>
-                  <h4 className="font-semibold text-lg">Software Development Intern</h4>
-                  <p className="text-accent">Skillbanc</p>
+            <div className="space-y-4">
+              {/* Viswam AI - Current */}
+              <div className="glass-card p-6 hover-lift border-l-4 border-accent">
+                <div className="flex items-start justify-between mb-4">
+                  <div>
+                    <h4 className="font-semibold text-lg">AI/ML Engineer</h4>
+                    <p className="text-accent">Viswam AI</p>
+                  </div>
+                  <span className="text-xs text-accent px-3 py-1 bg-accent/10 rounded-full font-medium">
+                    Present
+                  </span>
                 </div>
-                <span className="text-xs text-muted-foreground px-3 py-1 bg-secondary rounded-full">
-                  Remote
-                </span>
+                <ul className="space-y-2 text-muted-foreground text-sm">
+                  <li className="flex items-start gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
+                    Developing AI-powered solutions for enterprise clients
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
+                    Working on machine learning models and deep learning architectures
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
+                    Contributing to innovative AI products and research initiatives
+                  </li>
+                </ul>
               </div>
-              <ul className="space-y-2 text-muted-foreground text-sm">
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
-                  Built real-world applications from scratch using modern tools
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
-                  Worked across the complete software development lifecycle
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
-                  Collaborated effectively with a remote team
-                </li>
-              </ul>
+
+              {/* Skillbanc */}
+              <a
+                href="https://drive.google.com/file/d/1kllYhvj_cnFq1VK3l3F-L9ThyMki5JZV/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="glass-card p-6 hover-lift block group"
+              >
+                <div className="flex items-start justify-between mb-4">
+                  <div>
+                    <div className="flex items-center gap-2">
+                      <h4 className="font-semibold text-lg group-hover:text-accent transition-colors">Software Development Intern</h4>
+                      <ExternalLink size={16} className="text-muted-foreground group-hover:text-accent transition-colors" />
+                    </div>
+                    <p className="text-accent">Skillbanc</p>
+                  </div>
+                  <span className="text-xs text-muted-foreground px-3 py-1 bg-secondary rounded-full">
+                    Remote
+                  </span>
+                </div>
+                <ul className="space-y-2 text-muted-foreground text-sm">
+                  <li className="flex items-start gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
+                    Built real-world applications from scratch using modern tools
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
+                    Worked across the complete software development lifecycle
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
+                    Collaborated effectively with a remote team
+                  </li>
+                </ul>
+              </a>
             </div>
           </motion.div>
 
@@ -126,19 +179,30 @@ const Experience = () => {
           </div>
 
           <div className="flex flex-wrap justify-center gap-4">
-            {["MATLAB Onramp", "Kaggle - Python", "AWS Certification"].map(
-              (cert, index) => (
-                <motion.div
-                  key={cert}
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  animate={isInView ? { opacity: 1, scale: 1 } : {}}
-                  transition={{ duration: 0.4, delay: 0.7 + index * 0.1 }}
-                  className="px-6 py-4 glass-card hover-lift"
-                >
-                  <span className="font-medium">{cert}</span>
-                </motion.div>
-              )
-            )}
+            {certifications.map((cert, index) => (
+              <motion.div
+                key={cert.name}
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={isInView ? { opacity: 1, scale: 1 } : {}}
+                transition={{ duration: 0.4, delay: 0.7 + index * 0.1 }}
+              >
+                {cert.link ? (
+                  <a
+                    href={cert.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-6 py-4 glass-card hover-lift flex items-center gap-2 group"
+                  >
+                    <span className="font-medium group-hover:text-accent transition-colors">{cert.name}</span>
+                    <ExternalLink size={14} className="text-muted-foreground group-hover:text-accent transition-colors" />
+                  </a>
+                ) : (
+                  <div className="px-6 py-4 glass-card hover-lift">
+                    <span className="font-medium">{cert.name}</span>
+                  </div>
+                )}
+              </motion.div>
+            ))}
           </div>
         </motion.div>
       </div>

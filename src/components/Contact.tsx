@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { MapPin, Phone, Mail, Linkedin, ArrowUpRight } from "lucide-react";
+import { MapPin, Linkedin, ArrowUpRight } from "lucide-react";
 
 const contactInfo = [
   {
@@ -8,18 +8,6 @@ const contactInfo = [
     label: "Location",
     value: "Shadnagar, Telangana",
     href: null,
-  },
-  {
-    icon: Phone,
-    label: "Phone",
-    value: "+91 89193332393",
-    href: "tel:+918919332393",
-  },
-  {
-    icon: Mail,
-    label: "Email",
-    value: "saikrishnabikkumala@gmail.com",
-    href: "mailto:saikrishnabikkumala@gmail.com",
   },
   {
     icon: Linkedin,
@@ -54,20 +42,21 @@ const Contact = () => {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="flex flex-wrap justify-center gap-6">
           {contactInfo.map((item, index) => (
             <motion.div
               key={item.label}
               initial={{ opacity: 0, y: 30 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: index * 0.1 }}
+              className="w-full sm:w-auto"
             >
               {item.href ? (
                 <a
                   href={item.href}
                   target={item.href.startsWith("http") ? "_blank" : undefined}
                   rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined}
-                  className="glass-card p-6 hover-lift block group"
+                  className="glass-card p-6 hover-lift block group min-w-[250px]"
                 >
                   <div className="flex items-center justify-between mb-4">
                     <div className="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
@@ -81,7 +70,7 @@ const Contact = () => {
                   <p className="font-medium text-sm break-all">{item.value}</p>
                 </a>
               ) : (
-                <div className="glass-card p-6">
+                <div className="glass-card p-6 min-w-[250px]">
                   <div className="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center mb-4">
                     <item.icon className="w-5 h-5 text-accent" />
                   </div>
