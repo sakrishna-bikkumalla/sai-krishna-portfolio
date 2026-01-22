@@ -23,15 +23,15 @@ const softSkills = [
 ];
 
 const Skills = () => {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const sectionRef = useRef(null);
+  const visible = useInView(sectionRef, { once: true, margin: "-100px" });
 
   return (
-    <section id="skills" className="section-padding" ref={ref}>
+    <section id="skills" className="section-padding" ref={sectionRef}>
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          animate={visible ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
@@ -47,7 +47,7 @@ const Skills = () => {
           {/* Technical Skills */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
-            animate={isInView ? { opacity: 1, x: 0 } : {}}
+            animate={visible ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <h3 className="heading-md mb-8">Technical Skills</h3>
@@ -56,7 +56,7 @@ const Skills = () => {
                 <motion.div
                   key={skill}
                   initial={{ opacity: 0, scale: 0.9 }}
-                  animate={isInView ? { opacity: 1, scale: 1 } : {}}
+                  animate={visible ? { opacity: 1, scale: 1 } : {}}
                   transition={{ duration: 0.4, delay: 0.3 + index * 0.05 }}
                   className="px-6 py-3 glass-card hover-lift cursor-default"
                 >
@@ -69,7 +69,7 @@ const Skills = () => {
           {/* Soft Skills */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
-            animate={isInView ? { opacity: 1, x: 0 } : {}}
+            animate={visible ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.3 }}
           >
             <h3 className="heading-md mb-8">Soft Skills</h3>
@@ -78,7 +78,7 @@ const Skills = () => {
                 <motion.div
                   key={skill}
                   initial={{ opacity: 0, scale: 0.9 }}
-                  animate={isInView ? { opacity: 1, scale: 1 } : {}}
+                  animate={visible ? { opacity: 1, scale: 1 } : {}}
                   transition={{ duration: 0.4, delay: 0.4 + index * 0.1 }}
                   className="px-6 py-3 glass-card hover-lift cursor-default"
                 >
@@ -90,7 +90,7 @@ const Skills = () => {
             {/* Additional Info */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
-              animate={isInView ? { opacity: 1, y: 0 } : {}}
+              animate={visible ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.8 }}
               className="mt-12 p-6 glass-card"
             >

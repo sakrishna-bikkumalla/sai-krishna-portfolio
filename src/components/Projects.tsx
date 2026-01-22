@@ -51,15 +51,15 @@ const projects = [
 ];
 
 const Projects = () => {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const sectionRef = useRef(null);
+  const visible = useInView(sectionRef, { once: true, margin: "-100px" });
 
   return (
-    <section id="projects" className="section-padding bg-secondary/30" ref={ref}>
+    <section id="projects" className="section-padding bg-secondary/30" ref={sectionRef}>
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          animate={visible ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
@@ -76,7 +76,7 @@ const Projects = () => {
             <motion.div
               key={project.title}
               initial={{ opacity: 0, y: 30 }}
-              animate={isInView ? { opacity: 1, y: 0 } : {}}
+              animate={visible ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: index * 0.15 }}
               className="group glass-card overflow-hidden hover-lift"
             >

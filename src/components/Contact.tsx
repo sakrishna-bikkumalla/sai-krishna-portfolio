@@ -18,15 +18,15 @@ const contactInfo = [
 ];
 
 const Contact = () => {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const sectionRef = useRef(null);
+  const visible = useInView(sectionRef, { once: true, margin: "-100px" });
 
   return (
-    <section id="contact" className="section-padding bg-secondary/30" ref={ref}>
+    <section id="contact" className="section-padding bg-secondary/30" ref={sectionRef}>
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          animate={visible ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
@@ -47,7 +47,7 @@ const Contact = () => {
             <motion.div
               key={item.label}
               initial={{ opacity: 0, y: 30 }}
-              animate={isInView ? { opacity: 1, y: 0 } : {}}
+              animate={visible ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               className="w-full sm:w-auto"
             >
@@ -87,7 +87,7 @@ const Contact = () => {
         {/* CTA */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          animate={visible ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, delay: 0.5 }}
           className="text-center mt-16"
         >

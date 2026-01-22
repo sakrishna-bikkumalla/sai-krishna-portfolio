@@ -3,8 +3,8 @@ import { useRef } from "react";
 import { Briefcase, GraduationCap, Award, ExternalLink } from "lucide-react";
 
 const Experience = () => {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const sectionRef = useRef(null);
+  const visible = useInView(sectionRef, { once: true, margin: "-100px" });
 
   const certifications = [
     {
@@ -22,11 +22,11 @@ const Experience = () => {
   ];
 
   return (
-    <section id="experience" className="section-padding" ref={ref}>
+    <section id="experience" className="section-padding" ref={sectionRef}>
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          animate={visible ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
@@ -42,7 +42,7 @@ const Experience = () => {
           {/* Experience */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
-            animate={isInView ? { opacity: 1, x: 0 } : {}}
+            animate={visible ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <div className="flex items-center gap-3 mb-8">
@@ -120,7 +120,7 @@ const Experience = () => {
           {/* Education */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
-            animate={isInView ? { opacity: 1, x: 0 } : {}}
+            animate={visible ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.3 }}
           >
             <div className="flex items-center gap-3 mb-8">
@@ -151,7 +151,7 @@ const Experience = () => {
                 <motion.div
                   key={edu.degree}
                   initial={{ opacity: 0, y: 20 }}
-                  animate={isInView ? { opacity: 1, y: 0 } : {}}
+                  animate={visible ? { opacity: 1, y: 0 } : {}}
                   transition={{ duration: 0.4, delay: 0.4 + index * 0.1 }}
                   className="glass-card p-5 hover-lift"
                 >
@@ -167,7 +167,7 @@ const Experience = () => {
         {/* Certifications */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          animate={visible ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, delay: 0.6 }}
           className="mt-16"
         >
@@ -183,7 +183,7 @@ const Experience = () => {
               <motion.div
                 key={cert.name}
                 initial={{ opacity: 0, scale: 0.9 }}
-                animate={isInView ? { opacity: 1, scale: 1 } : {}}
+                animate={visible ? { opacity: 1, scale: 1 } : {}}
                 transition={{ duration: 0.4, delay: 0.7 + index * 0.1 }}
               >
                 {cert.link ? (
