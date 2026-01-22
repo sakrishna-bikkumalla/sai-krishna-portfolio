@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { ArrowUp } from "lucide-react";
 
 const Footer = () => {
-  const scrollToTop = () => {
+  const goToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
 
           <motion.button
-            onClick={scrollToTop}
+            onClick={goToTop}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="p-3 rounded-full bg-secondary hover:bg-accent/10 border border-border transition-colors group"

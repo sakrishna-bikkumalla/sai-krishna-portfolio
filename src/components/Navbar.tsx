@@ -11,23 +11,23 @@ const navLinks = [
 ];
 
 const Navbar = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [isDark, setIsDark] = useState(true);
+  const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   useEffect(() => {
     document.documentElement.classList.add("dark");
     
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
+    const onScroll = () => {
+      setScrolled(window.scrollY > 50);
     };
     
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const toggleTheme = () => {
-    setIsDark(!isDark);
+  const switchTheme = () => {
+    setDarkMode(!darkMode);
     document.documentElement.classList.toggle("dark");
   };
 
@@ -37,7 +37,7 @@ const Navbar = () => {
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-background/80 backdrop-blur-xl border-b border-border/50" : ""
+        scrolled ? "bg-background/80 backdrop-blur-xl border-b border-border/50" : ""
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12">
@@ -65,29 +65,29 @@ const Navbar = () => {
               </motion.a>
             ))}
             <button
-              onClick={toggleTheme}
+              onClick={switchTheme}
               className="p-2 rounded-full hover:bg-secondary transition-colors"
               aria-label="Toggle theme"
             >
-              {isDark ? <Sun size={18} /> : <Moon size={18} />}
+              {darkMode ? <Sun size={18} /> : <Moon size={18} />}
             </button>
           </div>
 
           {/* Mobile Menu Button */}
           <div className="flex md:hidden items-center gap-4">
             <button
-              onClick={toggleTheme}
+              onClick={switchTheme}
               className="p-2 rounded-full hover:bg-secondary transition-colors"
               aria-label="Toggle theme"
             >
-              {isDark ? <Sun size={18} /> : <Moon size={18} />}
+              {darkMode ? <Sun size={18} /> : <Moon size={18} />}
             </button>
             <button
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              onClick={() => setMenuOpen(!menuOpen)}
               className="p-2"
               aria-label="Toggle menu"
             >
-              {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+              {menuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
           </div>
         </div>
@@ -95,7 +95,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <AnimatePresence>
-        {isMobileMenuOpen && (
+        {menuOpen && (
           <motion.div
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
@@ -107,7 +107,7 @@ const Navbar = () => {
                 <a
                   key={link.name}
                   href={link.href}
-                  onClick={() => setIsMobileMenuOpen(false)}
+                  onClick={() => setMenuOpen(false)}
                   className="block text-lg font-medium text-muted-foreground hover:text-foreground transition-colors"
                 >
                   {link.name}
