@@ -1,8 +1,26 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { ExternalLink, Github, Blocks, Database, Wifi } from "lucide-react";
+import { ExternalLink, Github, Blocks, Database, Wifi, Brain, Bot } from "lucide-react";
 
 const projects = [
+  {
+    title: "PoliSense AI - Intelligent Employee Policy Assistant",
+    description:
+      "Built a RAG-based chatbot for employee onboarding. Integrated Groq Llama-3.1-8B-Instant LLM for context-aware responses. Implemented PDF-based policy retrieval using FAISS vector store and HuggingFace embeddings.",
+    tech: ["Python", "LangChain", "Streamlit", "Groq API", "FAISS", "HuggingFace"],
+    icon: Brain,
+    gradient: "from-purple-500/20 to-pink-500/20",
+    githubLink: "https://code.swecha.org/viswam/internships/icfai-ip-2-hackathon-17-jan/polisense",
+  },
+  {
+    title: "Custom Debugging Agent - OpenCode Platform",
+    description:
+      "Designed a custom AI agent using prompt engineering that analyzes project files with error messages, identifies root causes, classifies error types, and provides top 3 actionable fixes.",
+    tech: ["Prompt Engineering", "LLMs", "OpenCode Agents", "Python"],
+    icon: Bot,
+    gradient: "from-cyan-500/20 to-blue-500/20",
+    githubLink: "https://code.swecha.org/viswam/internships/custom-agents/-/tree/AG1?ref_type=heads",
+  },
   {
     title: "Blockchain Product Verification",
     description:
