@@ -47,9 +47,9 @@ const About = () => {
             <span className="text-gradient">innovative solutions</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-3xl mx-auto leading-relaxed">
-            I'm a highly motivated developer eager to kickstart my career as a Full Stack Developer. 
-            With a strong foundation in programming languages and web technologies, I enjoy solving 
-            real-world problems, collaborating in teams, and continuously learning modern technologies.
+            I'm a highly motivated AI/ML Engineer passionate about building intelligent systems. 
+            With a strong foundation in machine learning, deep learning, and generative AI, I enjoy solving 
+            real-world problems using data-driven approaches, collaborating in teams, and continuously exploring cutting-edge AI technologies.
           </p>
         </motion.div>
 
