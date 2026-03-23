@@ -141,9 +141,9 @@ const Projects = () => {
                       Code
                     </span>
                   )}
-                  {project.githubLink && (
+                  {project.demoLink && (
                     <a 
-                      href={project.githubLink}
+                      href={project.demoLink}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 text-sm text-muted-foreground hover:text-accent transition-colors"
