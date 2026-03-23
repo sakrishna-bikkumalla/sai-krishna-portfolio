@@ -14,6 +14,8 @@ const contributions = [
       { title: "Medicine PDF Download", description: "Enabled volunteers to download medicine list as PDF", mr: "MR !185" },
       { title: "Counseling Error Improvements", description: "Improved validation and error feedback", mr: "MR !111" },
       { title: "Mobile Back Button Fix", description: "Fixed navigation behavior in mobile interface", mr: "MR !126" },
+      { title: "Food Preferences - Frontend", description: "Added food preferences to the camp signup page", mr: "MR !284" },
+      { title: "Food Preferences - Backend", description: "Added food preferences in the signup for medical camp endpoint", mr: "MR !131" },
     ],
     projectLink: "https://code.swecha.org/healthcare/medical-camp",
     mrLink: "https://code.swecha.org/groups/healthcare/medical-camp/-/merge_requests?scope=all&state=merged&assignee_username=Saikrishna_b",
