@@ -10,7 +10,7 @@ const projects = [
     tech: ["React", "Firebase", "Tailwind CSS", "Leaflet.js", "Cloudinary"],
     icon: MilkOff,
     gradient: "from-green-500/20 to-emerald-500/20",
-    githubLink: null,
+    githubLink: "https://github.com/sakrishna-bikkumalla/DailyDairy.git",
     demoLink: "https://farmtohome-cde97.web.app/login",
   },
   {
