@@ -1,8 +1,18 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { ExternalLink, Github, Blocks, Database, Wifi, Brain, Bot, MilkOff } from "lucide-react";
+import { ExternalLink, Github, Blocks, Database, Wifi, Brain, Bot, MilkOff, ShieldCheck } from "lucide-react";
 
 const projects = [
+  {
+    title: "GitLab Compliance Checker",
+    description:
+      "Contributed to an analytics platform for GitLab compliance. Built team leaderboards, date filtering, JSON-based team config, issue tracking, and UI improvements across multiple merge requests.",
+    tech: ["Python", "Streamlit", "GitLab API", "Analytics", "JSON"],
+    icon: ShieldCheck,
+    gradient: "from-violet-500/20 to-purple-500/20",
+    githubLink: "https://github.com/sakrishna-bikkumalla/compaliance_checker.git",
+    demoLink: "https://complianceanalyticstool.streamlit.app",
+  },
   {
     title: "Daily Dairy - Smart Dairy Delivery Management",
     description:
