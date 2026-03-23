@@ -1,8 +1,18 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { ExternalLink, Github, Blocks, Database, Wifi, Brain, Bot } from "lucide-react";
+import { ExternalLink, Github, Blocks, Database, Wifi, Brain, Bot, MilkOff } from "lucide-react";
 
 const projects = [
+  {
+    title: "Daily Dairy - Smart Dairy Delivery Management",
+    description:
+      "A full-stack web app to digitize milk delivery operations. Supports Admin, Customer, and Delivery Agent roles with tailored dashboards, interactive Leaflet maps, subscription tracking, billing, and photo proof of delivery.",
+    tech: ["React", "Firebase", "Tailwind CSS", "Leaflet.js", "Cloudinary"],
+    icon: MilkOff,
+    gradient: "from-green-500/20 to-emerald-500/20",
+    githubLink: null,
+    demoLink: "https://farmtohome-cde97.web.app/login",
+  },
   {
     title: "PoliSense AI - Intelligent Employee Policy Assistant",
     description:
@@ -11,6 +21,7 @@ const projects = [
     icon: Brain,
     gradient: "from-purple-500/20 to-pink-500/20",
     githubLink: "https://code.swecha.org/viswam/internships/icfai-ip-2-hackathon-17-jan/polisense",
+    demoLink: null,
   },
   {
     title: "Custom Debugging Agent - OpenCode Platform",
@@ -20,6 +31,7 @@ const projects = [
     icon: Bot,
     gradient: "from-cyan-500/20 to-blue-500/20",
     githubLink: "https://code.swecha.org/viswam/internships/custom-agents/-/tree/AG1?ref_type=heads",
+    demoLink: null,
   },
   {
     title: "Blockchain Product Verification",
@@ -29,6 +41,7 @@ const projects = [
     icon: Blocks,
     gradient: "from-emerald-500/20 to-teal-500/20",
     githubLink: "https://github.com/sakrishna-bikkumalla/blockchain-product-verification-system.git",
+    demoLink: null,
   },
   {
     title: "Rice Mill Management System",
@@ -38,6 +51,7 @@ const projects = [
     icon: Database,
     gradient: "from-blue-500/20 to-indigo-500/20",
     githubLink: "https://github.com/sakrishna-bikkumalla/ricemill-management-system.git",
+    demoLink: null,
   },
   {
     title: "IoT WiFi Controlled Car",
@@ -47,6 +61,7 @@ const projects = [
     icon: Wifi,
     gradient: "from-orange-500/20 to-amber-500/20",
     githubLink: null,
+    demoLink: null,
   },
 ];
 
