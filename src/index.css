@@ -74,7 +74,13 @@
 @layer base {
   * {
     @apply border-border;
-    cursor: none;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    *,
+    a, button, [role="button"], input, textarea, select, label {
+      cursor: none;
+    }
   }
 
   html {
@@ -88,10 +94,6 @@
 
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
-  }
-
-  a, button, [role="button"], input, textarea, select, label {
-    cursor: none;
   }
 }
 

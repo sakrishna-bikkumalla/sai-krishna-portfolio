@@ -56,13 +56,17 @@ const CustomCursor = () => {
     };
   }, [springX, springY]);
 
-  // Hide on touch devices
-  const [isTouchDevice, setIsTouchDevice] = useState(false);
+  // Hide on touch / non-fine-pointer devices
+  const [isDesktop, setIsDesktop] = useState(false);
   useEffect(() => {
-    setIsTouchDevice("ontouchstart" in window);
+    const mq = window.matchMedia("(hover: hover) and (pointer: fine)");
+    const update = () => setIsDesktop(mq.matches);
+    update();
+    mq.addEventListener("change", update);
+    return () => mq.removeEventListener("change", update);
   }, []);
 
-  if (isTouchDevice) return null;
+  if (!isDesktop) return null;
 
   return (
     <div className="pointer-events-none fixed inset-0 z-[9999]">
