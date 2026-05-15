@@ -16,6 +16,7 @@ const technicalSkills = [
   "DX",
   "RAG",
   "Streamlit",
+  "Python Reflex",
 ];
 
 const softSkills = [
