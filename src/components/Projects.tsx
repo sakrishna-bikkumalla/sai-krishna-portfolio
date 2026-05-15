@@ -4,7 +4,7 @@ import { ExternalLink, Github, Blocks, Database, Wifi, Brain, Bot, MilkOff, Shie
 
 const projects = [
   {
-    title: "GrainFlow - Paddy Trading Operations Platform",
+    title: "TradeFlow - Paddy Trading Operations Platform",
     description:
       "A comprehensive, mobile-first platform that digitizes the entire paddy trading lifecycle — lot entry, kanta weighing, vehicle loading, and buyer redirection. Role-aware access for admins, managers, and stall operators with multi-tenant isolation per organization.",
     tech: ["Next.js", "React 19", "TypeScript", "Supabase", "Tailwind CSS"],
