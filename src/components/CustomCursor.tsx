@@ -7,8 +7,8 @@ const CustomCursor = () => {
   const [isClicking, setIsClicking] = useState(false);
   const [trail, setTrail] = useState<{ x: number; y: number; id: number }[]>([]);
 
-  const springX = useSpring(0, { stiffness: 300, damping: 28 });
-  const springY = useSpring(0, { stiffness: 300, damping: 28 });
+  const springX = useSpring(0, { stiffness: 1000, damping: 40, mass: 0.3 });
+  const springY = useSpring(0, { stiffness: 1000, damping: 40, mass: 0.3 });
 
   useEffect(() => {
     let trailId = 0;
