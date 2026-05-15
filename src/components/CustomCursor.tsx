@@ -7,8 +7,8 @@ const CustomCursor = () => {
   const [isClicking, setIsClicking] = useState(false);
   const [trail, setTrail] = useState<{ x: number; y: number; id: number }[]>([]);
 
-  const springX = useSpring(0, { stiffness: 300, damping: 28 });
-  const springY = useSpring(0, { stiffness: 300, damping: 28 });
+  const springX = useSpring(0, { stiffness: 1000, damping: 40, mass: 0.3 });
+  const springY = useSpring(0, { stiffness: 1000, damping: 40, mass: 0.3 });
 
   useEffect(() => {
     let trailId = 0;
@@ -89,20 +89,23 @@ const CustomCursor = () => {
 
       {/* Outer ring */}
       <motion.div
-        className="absolute rounded-full border-2"
+        className="absolute rounded-full border"
         style={{
           x: springX,
           y: springY,
           translateX: "-50%",
           translateY: "-50%",
           borderColor: "hsl(var(--accent))",
+          boxShadow: isClicking
+            ? "0 0 20px hsl(var(--accent)), 0 0 40px hsl(var(--accent))"
+            : "none",
         }}
         animate={{
-          width: isHovering ? 48 : isClicking ? 20 : 32,
-          height: isHovering ? 48 : isClicking ? 20 : 32,
-          opacity: isHovering ? 0.8 : 0.5,
+          width: isHovering ? 28 : isClicking ? 14 : 20,
+          height: isHovering ? 28 : isClicking ? 14 : 20,
+          opacity: isClicking ? 1 : isHovering ? 0.9 : 0.6,
         }}
-        transition={{ type: "spring", stiffness: 400, damping: 25 }}
+        transition={{ type: "spring", stiffness: 800, damping: 30 }}
       />
 
       {/* Inner dot */}
@@ -113,15 +116,20 @@ const CustomCursor = () => {
           top: position.y,
           translateX: "-50%",
           translateY: "-50%",
-          background: isHovering
-            ? "linear-gradient(135deg, hsl(142, 70%, 50%), hsl(170, 80%, 45%))"
+          background: isClicking
+            ? "radial-gradient(circle, hsl(60, 100%, 75%), hsl(142, 100%, 60%))"
+            : isHovering
+            ? "linear-gradient(135deg, hsl(142, 80%, 55%), hsl(170, 85%, 50%))"
             : "linear-gradient(135deg, hsl(142, 70%, 50%), hsl(100, 60%, 55%))",
+          boxShadow: isClicking
+            ? "0 0 16px hsl(142, 100%, 60%), 0 0 32px hsl(60, 100%, 70%)"
+            : "0 0 6px hsl(var(--accent) / 0.6)",
         }}
         animate={{
-          width: isClicking ? 12 : isHovering ? 8 : 6,
-          height: isClicking ? 12 : isHovering ? 8 : 6,
+          width: isClicking ? 8 : isHovering ? 5 : 4,
+          height: isClicking ? 8 : isHovering ? 5 : 4,
         }}
-        transition={{ type: "spring", stiffness: 500, damping: 28 }}
+        transition={{ type: "spring", stiffness: 900, damping: 30 }}
       />
     </div>
   );
