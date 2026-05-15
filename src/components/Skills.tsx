@@ -11,6 +11,11 @@ const technicalSkills = [
   "AWS",
   "React",
   "Prompt Engineering",
+  "Git",
+  "Supabase",
+  "DX",
+  "RAG",
+  "Streamlit",
 ];
 
 const softSkills = [
