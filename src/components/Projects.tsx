@@ -1,8 +1,18 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { ExternalLink, Github, Blocks, Database, Wifi, Brain, Bot, MilkOff, ShieldCheck } from "lucide-react";
+import { ExternalLink, Github, Blocks, Database, Wifi, Brain, Bot, MilkOff, ShieldCheck, Wheat } from "lucide-react";
 
 const projects = [
+  {
+    title: "GrainFlow - Paddy Trading Operations Platform",
+    description:
+      "A comprehensive, mobile-first platform that digitizes the entire paddy trading lifecycle — lot entry, kanta weighing, vehicle loading, and buyer redirection. Role-aware access for admins, managers, and stall operators with multi-tenant isolation per organization.",
+    tech: ["Next.js", "React 19", "TypeScript", "Supabase", "Tailwind CSS"],
+    icon: Wheat,
+    gradient: "from-amber-500/20 to-yellow-500/20",
+    githubLink: "https://github.com/sakrishna-bikkumalla/trading-manager.git",
+    demoLink: null,
+  },
   {
     title: "GitLab Compliance Checker",
     description:
