@@ -241,25 +241,6 @@ const OpenSource = () => {
                               </span>
                             </div>
 
-                            {/* improvement 2: state breakdown pills */}
-                            <div className="hidden sm:flex items-center gap-1.5 flex-shrink-0">
-                              {g.counts.merged > 0 && (
-                                <span className="text-[10px] px-2 py-0.5 rounded-full bg-purple-500/15 text-purple-400 border border-purple-500/30 font-medium">
-                                  {g.counts.merged} merged
-                                </span>
-                              )}
-                              {g.counts.closed > 0 && (
-                                <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-400 border border-emerald-500/30 font-medium">
-                                  {g.counts.closed} closed
-                                </span>
-                              )}
-                              {g.counts.opened > 0 && (
-                                <span className="text-[10px] px-2 py-0.5 rounded-full bg-sky-500/15 text-sky-400 border border-sky-500/30 font-medium">
-                                  {g.counts.opened} open
-                                </span>
-                              )}
-                            </div>
-
                             <div className="flex items-center gap-2 flex-shrink-0">
                               <span className="text-xs px-2.5 py-1 rounded-full bg-accent/10 text-accent font-medium">
                                 {g.mrs.length} MR{g.mrs.length !== 1 ? "s" : ""}
