@@ -52,68 +52,101 @@ const Experience = () => {
               <h3 className="heading-md">Experience</h3>
             </div>
 
-            <div className="space-y-4">
-              {/* Viswam AI - Current */}
-              <div className="glass-card p-6 hover-lift border-l-4 border-accent">
-                <div className="flex items-start justify-between mb-4">
-                  <div>
-                    <h4 className="font-semibold text-lg">AI/ML Engineer</h4>
-                    <p className="text-accent">Viswam AI</p>
-                  </div>
-                  <span className="text-xs text-accent px-3 py-1 bg-accent/10 rounded-full font-medium">
-                    Present
-                  </span>
-                </div>
-                <ul className="space-y-2 text-muted-foreground text-sm">
-                  <li className="flex items-start gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
-                    Developing AI-powered solutions for enterprise clients
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
-                    Working on machine learning models and deep learning architectures
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
-                    Contributing to innovative AI products and research initiatives
-                  </li>
-                </ul>
-              </div>
+            {/* Timeline container */}
+            <div className="relative">
+              {/* Animated vertical line */}
+              <motion.div
+                initial={{ scaleY: 0 }}
+                animate={visible ? { scaleY: 1 } : {}}
+                transition={{ duration: 0.8, delay: 0.5, ease: "easeInOut" }}
+                style={{ transformOrigin: "top" }}
+                className="absolute left-[15px] top-4 bottom-4 w-px bg-gradient-to-b from-accent via-accent/40 to-border/30"
+              />
 
-              {/* Skillbanc */}
-              <a
-                href="https://drive.google.com/file/d/1kllYhvj_cnFq1VK3l3F-L9ThyMki5JZV/view?usp=sharing"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="glass-card p-6 hover-lift block group"
-              >
-                <div className="flex items-start justify-between mb-4">
-                  <div>
-                    <div className="flex items-center gap-2">
-                      <h4 className="font-semibold text-lg group-hover:text-accent transition-colors">Software Development Intern</h4>
-                      <ExternalLink size={16} className="text-muted-foreground group-hover:text-accent transition-colors" />
+              <div className="space-y-6">
+                {/* Viswam AI — current */}
+                <div className="relative flex gap-5 items-start">
+                  {/* Dot — pulsing ring for active */}
+                  <div className="relative z-10 flex-shrink-0 mt-1">
+                    <span className="absolute inset-0 rounded-full bg-accent/30 animate-ping" />
+                    <div className="relative w-8 h-8 rounded-full border-2 border-accent bg-background flex items-center justify-center">
+                      <span className="w-2.5 h-2.5 rounded-full bg-accent" />
                     </div>
-                    <p className="text-accent">Skillbanc</p>
                   </div>
-                  <span className="text-xs text-muted-foreground px-3 py-1 bg-secondary rounded-full">
-                    Remote
-                  </span>
+
+                  <div className="flex-1 glass-card p-6 hover-lift border-l-4 border-accent">
+                    <div className="flex items-start justify-between mb-4">
+                      <div>
+                        <h4 className="font-semibold text-lg">AI/ML Engineer</h4>
+                        <p className="text-accent">Viswam AI</p>
+                      </div>
+                      <span className="text-xs text-accent px-3 py-1 bg-accent/10 rounded-full font-medium">
+                        Present
+                      </span>
+                    </div>
+                    <ul className="space-y-2 text-muted-foreground text-sm">
+                      <li className="flex items-start gap-2">
+                        <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
+                        Developing AI-powered solutions for enterprise clients
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
+                        Working on machine learning models and deep learning architectures
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
+                        Contributing to innovative AI products and research initiatives
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-                <ul className="space-y-2 text-muted-foreground text-sm">
-                  <li className="flex items-start gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
-                    Built real-world applications from scratch using modern tools
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
-                    Worked across the complete software development lifecycle
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
-                    Collaborated effectively with a remote team
-                  </li>
-                </ul>
-              </a>
+
+                {/* Skillbanc */}
+                <div className="relative flex gap-5 items-start">
+                  {/* Dot — past role */}
+                  <div className="relative z-10 flex-shrink-0 mt-1">
+                    <div className="w-8 h-8 rounded-full border-2 border-border bg-background flex items-center justify-center">
+                      <span className="w-2.5 h-2.5 rounded-full bg-muted-foreground/60" />
+                    </div>
+                  </div>
+
+                  <a
+                    href="https://drive.google.com/file/d/1kllYhvj_cnFq1VK3l3F-L9ThyMki5JZV/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1 glass-card p-6 hover-lift block group"
+                  >
+                    <div className="flex items-start justify-between mb-4">
+                      <div>
+                        <div className="flex items-center gap-2">
+                          <h4 className="font-semibold text-lg group-hover:text-accent transition-colors">
+                            Software Development Intern
+                          </h4>
+                          <ExternalLink size={16} className="text-muted-foreground group-hover:text-accent transition-colors" />
+                        </div>
+                        <p className="text-accent">Skillbanc</p>
+                      </div>
+                      <span className="text-xs text-muted-foreground px-3 py-1 bg-secondary rounded-full">
+                        Remote
+                      </span>
+                    </div>
+                    <ul className="space-y-2 text-muted-foreground text-sm">
+                      <li className="flex items-start gap-2">
+                        <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
+                        Built real-world applications from scratch using modern tools
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
+                        Worked across the complete software development lifecycle
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
+                        Collaborated effectively with a remote team
+                      </li>
+                    </ul>
+                  </a>
+                </div>
+              </div>
             </div>
           </motion.div>
 

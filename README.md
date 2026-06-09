@@ -1,73 +1,101 @@
-# Welcome to your Lovable project
+# Sai Krishna Bikkumalla — Portfolio
 
-## Project info
+Personal portfolio website for **Sai Krishna Bikkumalla**, an aspiring AI/ML Engineer specializing in Machine Learning, Deep Learning, and Generative AI.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Tech Stack
 
-## How can I edit this code?
+- **React 18** + **TypeScript**
+- **Vite** — build tool
+- **Tailwind CSS** — styling
+- **shadcn/ui** — component library (Radix UI primitives)
+- **Framer Motion** — animations and scroll-triggered transitions
+- **React Router DOM** — routing
 
-There are several ways of editing your application.
+## Sections
 
-**Use Lovable**
+| Section | Description |
+|---|---|
+| Hero | Intro with profile photo and social links |
+| About | Interest areas: Full Stack, Cloud, Blockchain, AI/ML |
+| Skills | Technical and soft skills |
+| Projects | 8 featured projects with GitHub/demo links |
+| Open Source | Merge requests grouped by project (code.swecha.org) |
+| Viswam AI Contributions | Stats dashboard — projects, MRs, issues, commits with drill-down dialog |
+| Experience & Education | Work history, academic background, certifications |
+| Contact | Location, LinkedIn, email CTA |
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+**Prerequisites:** Node.js 18+ or Bun
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Clone the repository
+git clone https://github.com/sakrishna-bikkumalla/sai-krishna-portfolio.git
+cd sai-krishna-portfolio
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Install dependencies
+npm install
+# or
+bun install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
+# or
+bun dev
 ```
 
-**Edit a file directly in GitHub**
+The app runs at `http://localhost:5173` by default.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Available Scripts
 
-**Use GitHub Codespaces**
+```sh
+npm run dev        # Start development server
+npm run build      # Production build
+npm run build:dev  # Development build
+npm run preview    # Preview production build locally
+npm run lint       # Run ESLint
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Project Structure
 
-## What technologies are used for this project?
+```
+src/
+├── assets/          # Static assets (profile image)
+├── components/
+│   ├── ui/          # shadcn/ui primitive components
+│   ├── Navbar.tsx
+│   ├── Hero.tsx
+│   ├── About.tsx
+│   ├── Skills.tsx
+│   ├── Projects.tsx
+│   ├── OpenSource.tsx
+│   ├── ViswamContributions.tsx
+│   ├── Experience.tsx
+│   ├── Contact.tsx
+│   ├── Footer.tsx
+│   └── CustomCursor.tsx
+├── data/
+│   └── viswam.json  # Open-source contribution data
+├── pages/
+│   ├── Index.tsx    # Main page (composes all sections)
+│   └── NotFound.tsx
+├── hooks/
+├── lib/
+├── App.tsx
+├── main.tsx
+└── index.css        # Global styles and Tailwind utilities
+```
 
-This project is built with:
+## Features
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- Dark mode by default with light/dark toggle
+- Custom animated cursor with spring physics and color trail (desktop only)
+- Scroll-triggered entrance animations via Framer Motion
+- Fully responsive — mobile hamburger menu, adaptive grid layouts
+- Searchable and filterable contribution explorer dialog
 
-## How can I deploy this project?
+## Contact
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- **Email:** saikrishnabikkumala@gmail.com
+- **LinkedIn:** [bikkumalla-sai-krishna](https://www.linkedin.com/in/bikkumalla-sai-krishna)
+- **GitHub:** [sakrishna-bikkumalla](https://github.com/sakrishna-bikkumalla)
