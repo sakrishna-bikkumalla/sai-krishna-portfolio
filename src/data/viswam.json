@@ -1,0 +1,3604 @@
+{
+  "projects": [
+    {
+      "name": "Internship / Team_Standup_Tracker",
+      "url": "https://code.swecha.org/internship/team_standup_tracker"
+    },
+    {
+      "name": "Corpus / Corpus Client App",
+      "url": "https://code.swecha.org/corpus/corpus-client-app"
+    },
+    {
+      "name": "Corpus / Corpus Server Platform",
+      "url": "https://code.swecha.org/corpus/corpus-server-app"
+    },
+    {
+      "name": "HealthTech / Medical Camp / eHRS-Frontend",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite"
+    },
+    {
+      "name": "HealthTech / Medical Camp / eHRS-backend",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi"
+    },
+    {
+      "name": "Tools / Intern Activity Tracker",
+      "url": "https://code.swecha.org/tools/intern-activity-tracker"
+    },
+    {
+      "name": "Tools / gitlab-compliance-checker",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker"
+    },
+    {
+      "name": "Tools / Internship Activity Tracker",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker"
+    },
+    {
+      "name": "Summer of AI - 2025 / Profiles",
+      "url": "https://code.swecha.org/soai2025/profiles"
+    },
+    {
+      "name": "HealthTech / Medical Camp / ehrs-meta",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-meta"
+    },
+    {
+      "name": "VISWAM / admin / Internships / Custom Agents",
+      "url": "https://code.swecha.org/viswam/admin/internships/custom-agents"
+    },
+    {
+      "name": "VISWAM / admin / Internships / trinity-Daily Activity",
+      "url": "https://code.swecha.org/viswam/admin/internships/core-four-daily-activity"
+    },
+    {
+      "name": "VISWAM / admin / Internships / API Collection",
+      "url": "https://code.swecha.org/viswam/admin/internships/api-collection"
+    },
+    {
+      "name": "VISWAM / admin / Internships / EHRS-API-collection",
+      "url": "https://code.swecha.org/viswam/admin/internships/ehrs-api-collection"
+    },
+    {
+      "name": "VISWAM / admin / Internships / Corpus API Collection",
+      "url": "https://code.swecha.org/viswam/admin/internships/corpus-api-collection"
+    },
+    {
+      "name": "Mukthanand Reddy M / Corpus Bruno Collections",
+      "url": "https://code.swecha.org/Mukthanand21/corpus-bruno-collections"
+    },
+    {
+      "name": "VISWAM / admin / Internships / ICFAI IP-2 Hackathon 17-jan / polisense",
+      "url": "https://code.swecha.org/viswam/admin/internships/icfai-ip-2-hackathon-17-jan/polisense"
+    },
+    {
+      "name": "Lakshy Yarlagadda / PoliSense",
+      "url": "https://code.swecha.org/Lakshy/PoliSense"
+    }
+  ],
+  "mrs": [
+    {
+      "title": "Refactor: Glab flow implementation graph ql  implementation,performance improvement",
+      "state": "opened",
+      "date": "2026-06-01",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/merge_requests/8"
+    },
+    {
+      "title": "refactor: removed the sidebar url and access token display.",
+      "state": "merged",
+      "date": "2026-05-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/merge_requests/129"
+    },
+    {
+      "title": "fix: docker build",
+      "state": "merged",
+      "date": "2026-05-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/merge_requests/128"
+    },
+    {
+      "title": "feat: add compliance-only checks, fix detection bugs, and improve batch UI",
+      "state": "merged",
+      "date": "2026-05-30",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/merge_requests/127"
+    },
+    {
+      "title": "refactor: updated the weekly performance tracker,also updated the docker file and added report download option in weekly perfromance tracker",
+      "state": "merged",
+      "date": "2026-05-25",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/merge_requests/7"
+    },
+    {
+      "title": "Test Coverage: Improved the test coverage to 100%",
+      "state": "merged",
+      "date": "2026-05-20",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/merge_requests/6"
+    },
+    {
+      "title": "refactore : using the graphql for fetching the projects ,mr,issues except commits",
+      "state": "merged",
+      "date": "2026-05-19",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/merge_requests/5"
+    },
+    {
+      "title": "Improving time logs",
+      "state": "merged",
+      "date": "2026-05-13",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/merge_requests/4"
+    },
+    {
+      "title": "MR : Weekly Performance Tracker UI Optimization",
+      "state": "merged",
+      "date": "2026-05-08",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/merge_requests/3"
+    },
+    {
+      "title": "feat : corpus integration in the team leaderboard",
+      "state": "merged",
+      "date": "2026-05-06",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/merge_requests/2"
+    },
+    {
+      "title": "refactor: isolate Check Project Compliance featureRemoved all extraneous UI...",
+      "state": "merged",
+      "date": "2026-04-28",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/merge_requests/126"
+    },
+    {
+      "title": "refactor : Deleted the project compilance mode completely",
+      "state": "merged",
+      "date": "2026-04-28",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/merge_requests/1"
+    },
+    {
+      "title": "feat : Database integration",
+      "state": "merged",
+      "date": "2026-04-28",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/merge_requests/125"
+    },
+    {
+      "title": "fix: consolidate multiple event loops into a single global async bridge",
+      "state": "merged",
+      "date": "2026-04-25",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/merge_requests/124"
+    },
+    {
+      "title": "fesat : Added new date selection ,weekwisw, single day , custom days...",
+      "state": "closed",
+      "date": "2026-04-24",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/merge_requests/123"
+    },
+    {
+      "title": "fix: Async Infrastructure Refactor & Reliability Stabilization",
+      "state": "merged",
+      "date": "2026-04-15",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/merge_requests/118"
+    },
+    {
+      "title": "Migration from python-gitlab to glab-flow",
+      "state": "merged",
+      "date": "2026-04-12",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/merge_requests/117"
+    },
+    {
+      "title": "refactor(queue): replace manual status validation with pytransitions",
+      "state": "closed",
+      "date": "2026-04-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/merge_requests/170"
+    },
+    {
+      "title": "ci: CI/CD Pipeline Hardening & Performance Optimization",
+      "state": "merged",
+      "date": "2026-03-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/merge_requests/107"
+    },
+    {
+      "title": "merging team dev 3  into feature final",
+      "state": "closed",
+      "date": "2026-03-28",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/merge_requests/79"
+    },
+    {
+      "title": "refactor(consultation): replace manual queue state dictionary with transitions library machine",
+      "state": "closed",
+      "date": "2026-03-26",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/merge_requests/141"
+    },
+    {
+      "title": "fix(auth): prevent unauthorized role-based redirects on login",
+      "state": "merged",
+      "date": "2026-03-24",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/merge_requests/289"
+    },
+    {
+      "title": "fix: page redirection in the volunteer login",
+      "state": "closed",
+      "date": "2026-03-22",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/merge_requests/286"
+    },
+    {
+      "title": "feat: added the food_preferences to the camp_signup page",
+      "state": "merged",
+      "date": "2026-03-22",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/merge_requests/284"
+    },
+    {
+      "title": "feat:Added food preferences in the signup for medical camp endpoint",
+      "state": "merged",
+      "date": "2026-03-21",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/merge_requests/131"
+    },
+    {
+      "title": "fix: fixed the error of db init when building the docker",
+      "state": "merged",
+      "date": "2026-03-21",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/merge_requests/130"
+    },
+    {
+      "title": "Draft: Resolve \"Feat: add food preferances in for the volunteers signup(opt for breakfast,opt for lunch(veg,non veg))\"",
+      "state": "closed",
+      "date": "2026-03-11",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/merge_requests/108"
+    },
+    {
+      "title": "feat : added the search option in the medicine list page",
+      "state": "merged",
+      "date": "2026-03-03",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/merge_requests/203"
+    },
+    {
+      "title": "Feat: Medicine List with PDF Download for Volunteers",
+      "state": "merged",
+      "date": "2026-02-27",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/merge_requests/185"
+    },
+    {
+      "title": "Implemented the search instead of drop down in the replace medicine and add ed the medicine id",
+      "state": "merged",
+      "date": "2026-02-27",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/merge_requests/184"
+    },
+    {
+      "title": "fix:page reloading again and again when switched between the workspace and leaderboard analysis,Made some ui changes",
+      "state": "merged",
+      "date": "2026-02-26",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/merge_requests/71"
+    },
+    {
+      "title": "Convert the drop-down into the text field with suggestions in medicines update and medicine verify page and in the prescription page",
+      "state": "merged",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/merge_requests/151"
+    },
+    {
+      "title": "fix: page reloading again and again when we move between pages it only reloads...",
+      "state": "merged",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/merge_requests/67"
+    },
+    {
+      "title": "updated the ui",
+      "state": "merged",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/merge_requests/50"
+    },
+    {
+      "title": "Adding the Assigined mr, assigned issues column in analytics",
+      "state": "merged",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/merge_requests/46"
+    },
+    {
+      "title": "implemented the issue 35 and the issue 38",
+      "state": "merged",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/merge_requests/45"
+    },
+    {
+      "title": "feat: implemented the date file filtering feat and also implemented the json file input for teams",
+      "state": "merged",
+      "date": "2026-02-21",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/merge_requests/34"
+    },
+    {
+      "title": "feat:team leader board basic implementation done",
+      "state": "merged",
+      "date": "2026-02-21",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/merge_requests/29"
+    },
+    {
+      "title": "Resolve \"feat:implementing the back button in mobile app\"",
+      "state": "opened",
+      "date": "2026-02-20",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/merge_requests/206"
+    },
+    {
+      "title": "fix: fixed the back button issue in the mobile app",
+      "state": "merged",
+      "date": "2026-02-15",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/merge_requests/126"
+    },
+    {
+      "title": "improved the error messages in counseling page",
+      "state": "merged",
+      "date": "2026-02-14",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/merge_requests/111"
+    },
+    {
+      "title": "Resolve \"feat: implementing the logout feature\"",
+      "state": "closed",
+      "date": "2026-02-10",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/merge_requests/76"
+    },
+    {
+      "title": "Adding new volunteer fields to API Endpoints To track the Volunteer Activity",
+      "state": "closed",
+      "date": "2026-02-05",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/merge_requests/13"
+    },
+    {
+      "title": "feat: add category-based discovery and shareable record URLs",
+      "state": "merged",
+      "date": "2026-01-29",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/merge_requests/195"
+    },
+    {
+      "title": "Draft: Resolve \"feat: Add Optional Category Tag Filtering to Peer Review Interface\"",
+      "state": "closed",
+      "date": "2026-01-29",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/merge_requests/190"
+    },
+    {
+      "title": "feat:Merging the api collectins of the EHRC",
+      "state": "merged",
+      "date": "2026-01-27",
+      "url": "https://code.swecha.org/viswam/admin/internships/ehrs-api-collection/-/merge_requests/20"
+    },
+    {
+      "title": "small change",
+      "state": "merged",
+      "date": "2026-01-25",
+      "url": "https://code.swecha.org/viswam/admin/internships/corpus-api-collection/-/merge_requests/8"
+    },
+    {
+      "title": "addeed combined file",
+      "state": "merged",
+      "date": "2026-01-25",
+      "url": "https://code.swecha.org/viswam/admin/internships/corpus-api-collection/-/merge_requests/6"
+    },
+    {
+      "title": "V6",
+      "state": "merged",
+      "date": "2026-01-25",
+      "url": "https://code.swecha.org/viswam/admin/internships/corpus-api-collection/-/merge_requests/3"
+    },
+    {
+      "title": "added all files to my branch",
+      "state": "merged",
+      "date": "2026-01-25",
+      "url": "https://code.swecha.org/Mukthanand21/corpus-bruno-collections/-/merge_requests/2"
+    },
+    {
+      "title": "saikrishna added .bru files",
+      "state": "merged",
+      "date": "2026-01-24",
+      "url": "https://code.swecha.org/viswam/admin/internships/api-collection/-/merge_requests/34"
+    },
+    {
+      "title": "Submission/saikrishna",
+      "state": "closed",
+      "date": "2026-01-24",
+      "url": "https://code.swecha.org/viswam/admin/internships/api-collection/-/merge_requests/25"
+    },
+    {
+      "title": "added cat animals vault bruno api collection",
+      "state": "merged",
+      "date": "2026-01-23",
+      "url": "https://code.swecha.org/viswam/admin/internships/api-collection/-/merge_requests/5"
+    },
+    {
+      "title": "Submission/saikrishna",
+      "state": "closed",
+      "date": "2026-01-23",
+      "url": "https://code.swecha.org/viswam/admin/internships/api-collection/-/merge_requests/2"
+    },
+    {
+      "title": "Update Ruff extension in VS Code recommendations",
+      "state": "merged",
+      "date": "2026-01-18",
+      "url": "https://code.swecha.org/viswam/admin/internships/icfai-ip-2-hackathon-17-jan/polisense/-/merge_requests/3"
+    },
+    {
+      "title": "Add VS Code IDE setup configuration",
+      "state": "merged",
+      "date": "2026-01-18",
+      "url": "https://code.swecha.org/viswam/admin/internships/icfai-ip-2-hackathon-17-jan/polisense/-/merge_requests/2"
+    },
+    {
+      "title": "FixWizard: Paste code + error, get instant explanation and working fix.",
+      "state": "closed",
+      "date": "2026-01-17",
+      "url": "https://code.swecha.org/viswam/admin/internships/custom-agents/-/merge_requests/7"
+    },
+    {
+      "title": "Update file Saikrishna_b.md",
+      "state": "closed",
+      "date": "2026-01-05",
+      "url": "https://code.swecha.org/soai2025/profiles/-/merge_requests/585"
+    },
+    {
+      "title": "Improving the logs",
+      "state": "closed",
+      "date": "2026-02-07",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/merge_requests/23"
+    },
+    {
+      "title": "Draft: feat: Add  Shareable Record URLs",
+      "state": "closed",
+      "date": "2026-01-29",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/merge_requests/192"
+    }
+  ],
+  "issues": [
+    {
+      "title": "Fix : Weekly Performance Tracker Layout Optimization",
+      "state": "closed",
+      "date": "2026-05-08",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/issues/2"
+    },
+    {
+      "title": "feat : Integrate Corpus Contributions and Individual Metrics Export in Team Leaderboard",
+      "state": "closed",
+      "date": "2026-05-06",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/issues/1"
+    },
+    {
+      "title": "# Fix: Critical Concurrency Errors in Multi-User Environments (Event Loop Fragmentation)",
+      "state": "closed",
+      "date": "2026-04-25",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/issues/70"
+    },
+    {
+      "title": "Adopt `transitions` library for consultation queue state machine",
+      "state": "opened",
+      "date": "2026-03-22",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/issues/79"
+    },
+    {
+      "title": "Fix:  Incorrect Role-Based Redirection and Stale Auth Session",
+      "state": "closed",
+      "date": "2026-03-22",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/246"
+    },
+    {
+      "title": "feat: add the search option in the medicines list",
+      "state": "closed",
+      "date": "2026-03-03",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/210"
+    },
+    {
+      "title": "Feat: add food preferances in for the volunteers signup(opt for breakfast,opt for lunch(veg,non veg))",
+      "state": "closed",
+      "date": "2026-02-26",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/issues/50"
+    },
+    {
+      "title": "Add the medicines pdf list download in the volunteers page",
+      "state": "closed",
+      "date": "2026-02-26",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/189"
+    },
+    {
+      "title": "IN verify medicine>replace medicine add the search option by removing the drop down",
+      "state": "closed",
+      "date": "2026-02-26",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/185"
+    },
+    {
+      "title": "Convert the drop-down into the text field with suggestions in medicines update and medicine verify page and in the prescription page",
+      "state": "closed",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/172"
+    },
+    {
+      "title": "Fix: Reloading the entire page again and again when we go to leaderboard page and again come back to the analytics page",
+      "state": "closed",
+      "date": "2026-02-24",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/issues/47"
+    },
+    {
+      "title": "Feat : Adding the Assigined mr, assigned issues column in analytics",
+      "state": "closed",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/issues/39"
+    },
+    {
+      "title": "feat : Display what filters are applied below the run leaderboard analysis button",
+      "state": "closed",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/issues/38"
+    },
+    {
+      "title": "Update Scoring Formula \u2014 Team Leaderboard",
+      "state": "closed",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/issues/35"
+    },
+    {
+      "title": "feat:implementing the back button in mobile app",
+      "state": "opened",
+      "date": "2026-02-20",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/issues/238"
+    },
+    {
+      "title": "improving the error messages in the Counseling page",
+      "state": "closed",
+      "date": "2026-02-14",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/152"
+    },
+    {
+      "title": "feat(prescription ui): Redirect After Successful Prescription Entry & Medicine Verification",
+      "state": "closed",
+      "date": "2026-02-12",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/141"
+    },
+    {
+      "title": "feat: implementing the logout feature",
+      "state": "closed",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/131"
+    },
+    {
+      "title": "Making logs even more specific and improving the log tracking",
+      "state": "closed",
+      "date": "2026-02-05",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/issues/15"
+    },
+    {
+      "title": "Adding new volunteer fields to API Endpoints To track the Volunteer Activity",
+      "state": "closed",
+      "date": "2026-02-04",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/work_items/12"
+    },
+    {
+      "title": "04/02/26 Sai Krishna",
+      "state": "closed",
+      "date": "2026-02-04",
+      "url": "https://code.swecha.org/viswam/admin/internships/core-four-daily-activity/-/issues/53"
+    },
+    {
+      "title": "03/02/26 11am- 12:30 pm saikrishna",
+      "state": "closed",
+      "date": "2026-02-03",
+      "url": "https://code.swecha.org/viswam/admin/internships/core-four-daily-activity/-/issues/40"
+    },
+    {
+      "title": "03/02/26 9:15-10:50am sai krishna",
+      "state": "closed",
+      "date": "2026-02-03",
+      "url": "https://code.swecha.org/viswam/admin/internships/core-four-daily-activity/-/issues/39"
+    },
+    {
+      "title": "2:20 pm to 4:20pm 31/01/26  saikrishna",
+      "state": "closed",
+      "date": "2026-01-31",
+      "url": "https://code.swecha.org/viswam/admin/internships/core-four-daily-activity/-/issues/26"
+    },
+    {
+      "title": "1pm -2pm 31/01/26 sai krishna",
+      "state": "closed",
+      "date": "2026-01-31",
+      "url": "https://code.swecha.org/viswam/admin/internships/core-four-daily-activity/-/issues/25"
+    },
+    {
+      "title": "12am- 1pm sai krishna",
+      "state": "closed",
+      "date": "2026-01-31",
+      "url": "https://code.swecha.org/viswam/admin/internships/core-four-daily-activity/-/issues/23"
+    },
+    {
+      "title": "11-12 am 31/01/26 sai krishna",
+      "state": "closed",
+      "date": "2026-01-31",
+      "url": "https://code.swecha.org/viswam/admin/internships/core-four-daily-activity/-/issues/21"
+    },
+    {
+      "title": "10-11am 31/01/26 sai krishna",
+      "state": "closed",
+      "date": "2026-01-31",
+      "url": "https://code.swecha.org/viswam/admin/internships/core-four-daily-activity/-/issues/19"
+    },
+    {
+      "title": "9-10am 31/01/25 sai krishna.",
+      "state": "closed",
+      "date": "2026-01-31",
+      "url": "https://code.swecha.org/viswam/admin/internships/core-four-daily-activity/-/issues/18"
+    },
+    {
+      "title": "Selecting the issue for EHRS app",
+      "state": "closed",
+      "date": "2026-01-31",
+      "url": "https://code.swecha.org/viswam/admin/internships/core-four-daily-activity/-/issues/14"
+    },
+    {
+      "title": "Add copy url option for each record in peer review",
+      "state": "opened",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/viswam/admin/internships/core-four-daily-activity/-/issues/10"
+    },
+    {
+      "title": "Add preview page to the record details page",
+      "state": "opened",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/viswam/admin/internships/core-four-daily-activity/-/issues/9"
+    },
+    {
+      "title": "Adding new feature to corpus client app",
+      "state": "opened",
+      "date": "2026-01-28",
+      "url": "https://code.swecha.org/viswam/admin/internships/core-four-daily-activity/-/issues/7"
+    },
+    {
+      "title": "Swecha Corpus Client app - Records,Record history",
+      "state": "closed",
+      "date": "2026-01-28",
+      "url": "https://code.swecha.org/viswam/admin/internships/core-four-daily-activity/-/issues/2"
+    },
+    {
+      "title": "Feature Request: Notification Tab",
+      "state": "opened",
+      "date": "2025-12-06",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/issues/222"
+    },
+    {
+      "title": "migration to react and fastapi",
+      "state": "opened",
+      "date": "2026-05-25",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/issues/4"
+    },
+    {
+      "title": "improving the performance and efficiency using the glabflow",
+      "state": "closed",
+      "date": "2026-05-15",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/issues/3"
+    },
+    {
+      "title": "Feat: Filtering and sorting",
+      "state": "opened",
+      "date": "2026-04-26",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/issues/73"
+    },
+    {
+      "title": "feat: fetching the users from the gitlab group",
+      "state": "opened",
+      "date": "2026-04-26",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/issues/72"
+    },
+    {
+      "title": "feat : Add the data base",
+      "state": "opened",
+      "date": "2026-04-26",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/issues/71"
+    },
+    {
+      "title": "Bug : MRs and Commits sometimes fail to fetch after a team edit, but then reappear after a rerun in the team-leaderboard",
+      "state": "closed",
+      "date": "2026-04-14",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/issues/65"
+    },
+    {
+      "title": "bug : Incorrect Commit Attribution Due to Overly Aggressive Fuzzy Identity Matching",
+      "state": "closed",
+      "date": "2026-04-14",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/issues/64"
+    },
+    {
+      "title": "feat: adding the counseling queue after the verify medicines and before the counseling",
+      "state": "closed",
+      "date": "2026-03-03",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/215"
+    },
+    {
+      "title": "feat: adding the verify medicines queue in between the prescriptions and verify medicine",
+      "state": "closed",
+      "date": "2026-03-03",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/214"
+    },
+    {
+      "title": "feat: Adding queue for the  medicine prescription after the Inconsultations queue",
+      "state": "closed",
+      "date": "2026-03-03",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/213"
+    },
+    {
+      "title": "feat: Patient status for  know your patient before doctor consultations",
+      "state": "closed",
+      "date": "2026-03-03",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/211"
+    },
+    {
+      "title": "feat: queue for the know your patients, nedicines prescribed, medicines verified, counseling",
+      "state": "closed",
+      "date": "2026-03-03",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/issues/53"
+    },
+    {
+      "title": "fix: patient profile not found in the quick search",
+      "state": "closed",
+      "date": "2026-03-03",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/208"
+    },
+    {
+      "title": "feat: add the ointment , cream ,lotion ,powder Types in the medicine details",
+      "state": "closed",
+      "date": "2026-03-03",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/issues/52"
+    },
+    {
+      "title": "Feat : Patient status for the known your patient  after vitals",
+      "state": "closed",
+      "date": "2026-03-03",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/issues/51"
+    },
+    {
+      "title": "bug: validation is missing in the for the patient registration for the mandatory fields",
+      "state": "closed",
+      "date": "2026-03-03",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/207"
+    },
+    {
+      "title": "Ui Improvement in the Family Grouping page",
+      "state": "closed",
+      "date": "2026-03-03",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/205"
+    },
+    {
+      "title": "Age update automatically every year and DOB(Year mandatory) should be taken",
+      "state": "closed",
+      "date": "2026-03-03",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/issues/56"
+    },
+    {
+      "title": "Age update automatically every year and DOB(Year mandatory) should be taken",
+      "state": "closed",
+      "date": "2026-03-03",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/204"
+    },
+    {
+      "title": "Only tablets should be given by dosage wise and remaining like syrup ,ointment, powders etc should be given by Quantity",
+      "state": "closed",
+      "date": "2026-03-03",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/203"
+    },
+    {
+      "title": "No edit medicines Quantity in the verify medicine",
+      "state": "closed",
+      "date": "2026-03-03",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/202"
+    },
+    {
+      "title": "feat: Adding queue in between vitals and waiting queue of know your patient",
+      "state": "closed",
+      "date": "2026-03-03",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/201"
+    },
+    {
+      "title": "Feat:When repeat medicine is selected then the medicine should be updated automatically based on the previous prescription data",
+      "state": "closed",
+      "date": "2026-03-03",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/198"
+    },
+    {
+      "title": "Feat: Funnel chart(stages) for real-time camp analytics",
+      "state": "closed",
+      "date": "2026-03-03",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/196"
+    },
+    {
+      "title": "Make Medicine Analytics Downloadable as PDF in Admin Login",
+      "state": "closed",
+      "date": "2026-02-26",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/191"
+    },
+    {
+      "title": "rename the medicine verification>to medicine dispatched in patient status in all pages",
+      "state": "closed",
+      "date": "2026-02-26",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/190"
+    },
+    {
+      "title": "Feat: add food preferances in for the volunteers signup(opt for breakfast,opt for lunch(veg,non veg))",
+      "state": "closed",
+      "date": "2026-02-26",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/187"
+    },
+    {
+      "title": "Consultation queue pop up message is going out of margin so check it and fix it",
+      "state": "closed",
+      "date": "2026-02-26",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/186"
+    },
+    {
+      "title": "Feature Request: Add Stock Status Filter and Quantity Sorting in Manage Medicine Page (Admin)",
+      "state": "closed",
+      "date": "2026-02-26",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/184"
+    },
+    {
+      "title": "In verify medicine after replacing the medicine the original medicine is being displayed instead of replaced medicine.",
+      "state": "closed",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/177"
+    },
+    {
+      "title": "all the Error 422,500 are displayed as the objects or network error so fix them",
+      "state": "closed",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/176"
+    },
+    {
+      "title": "When editing quantity in verify medicine. Quantity is default set to one",
+      "state": "closed",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/168"
+    },
+    {
+      "title": "Unable to fill chronic others field",
+      "state": "closed",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/issues/165"
+    },
+    {
+      "title": "Apply project-wide linting and code formatting improvements",
+      "state": "closed",
+      "date": "2026-02-24",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/issues/50"
+    },
+    {
+      "title": "fix: the commits are not showing properly so fix it",
+      "state": "closed",
+      "date": "2026-02-24",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/issues/49"
+    },
+    {
+      "title": "feat: Add Backend-Managed Teams with Frontend Dropdown Selection",
+      "state": "closed",
+      "date": "2026-02-24",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/issues/48"
+    },
+    {
+      "title": "feat: Create dedicated Leaderboard Ranking page with badge display",
+      "state": "closed",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/issues/37"
+    },
+    {
+      "title": "fix:Clear Filter button does not reset Date Range filter in Team Leaderboard",
+      "state": "closed",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/issues/36"
+    },
+    {
+      "title": "Adding feature for tracking who checked the medicines and states of the medicine checking is done or not.",
+      "state": "opened",
+      "date": "2026-02-02",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-meta/-/issues/10"
+    },
+    {
+      "title": "Adding new feature to corpus client app",
+      "state": "opened",
+      "date": "2026-01-28",
+      "url": "https://code.swecha.org/viswam/admin/internships/core-four-daily-activity/-/issues/8"
+    },
+    {
+      "title": "Add category-based filtering to Peer Review feed",
+      "state": "closed",
+      "date": "2026-01-28",
+      "url": "https://code.swecha.org/viswam/admin/internships/core-four-daily-activity/-/issues/6"
+    },
+    {
+      "title": "Adding new feature to corpus client app",
+      "state": "closed",
+      "date": "2026-01-28",
+      "url": "https://code.swecha.org/viswam/admin/internships/core-four-daily-activity/-/issues/5"
+    },
+    {
+      "title": "Swecha Corpus Client app - Tasks,Points,Location",
+      "state": "closed",
+      "date": "2026-01-28",
+      "url": "https://code.swecha.org/viswam/admin/internships/core-four-daily-activity/-/issues/4"
+    },
+    {
+      "title": "Swecha Corpus Client app - Users,Categories",
+      "state": "closed",
+      "date": "2026-01-28",
+      "url": "https://code.swecha.org/viswam/admin/internships/core-four-daily-activity/-/issues/3"
+    }
+  ],
+  "commits": [
+    {
+      "project": "Bikkumalla  Sai Krishna / agenticskills",
+      "message": "Initial commit - added precommit skill",
+      "date": "2026-03-31",
+      "url": "https://code.swecha.org/Saikrishna_b/saikrishnabikkumalla_agenticskills/-/commit/d3ab86a6b53ec8d99915e55f932c66b4debc3698"
+    },
+    {
+      "project": "Bikkumalla  Sai Krishna / agenticskills",
+      "message": "add:new skill added for the precommit checking",
+      "date": "2026-03-31",
+      "url": "https://code.swecha.org/Saikrishna_b/saikrishnabikkumalla_agenticskills/-/commit/1ee57cadb1204a58d3327474d0adf09af7fcee52"
+    },
+    {
+      "project": "Bikkumalla  Sai Krishna / task 4",
+      "message": "Initial commit: Streamlit apps with visualization and mapping",
+      "date": "2026-01-06",
+      "url": "https://code.swecha.org/Saikrishna_b/task-4/-/commit/7f9e8aaf49fa8fdcf4bd7a966beb96dfe7539c97"
+    },
+    {
+      "project": "Bikkumalla  Sai Krishna / task 4",
+      "message": "Initial commit",
+      "date": "2026-01-07",
+      "url": "https://code.swecha.org/Saikrishna_b/task-4/-/commit/1666a67d51d0f41881054cce18e8bb5d681ea359"
+    },
+    {
+      "project": "Bikkumalla  Sai Krishna / task 4",
+      "message": "Merge branch 'main' of https://code.swecha.org/Saikrishna_b/task4-streamlitapp",
+      "date": "2026-01-07",
+      "url": "https://code.swecha.org/Saikrishna_b/task-4/-/commit/c3ad41406003f9c68620a5e87838dd472cd4b7d2"
+    },
+    {
+      "project": "Bikkumalla  Sai Krishna / Profiles",
+      "message": "Update file Saikrishna_b.md",
+      "date": "2026-01-05",
+      "url": "https://code.swecha.org/Saikrishna_b/profiles/-/commit/6d5ae0e2d480371eb4df9541fda3402dc9fef6ad"
+    },
+    {
+      "project": "Bikkumalla  Sai Krishna / saikrishna_bikkumalla",
+      "message": "Initial commit",
+      "date": "2026-01-05",
+      "url": "https://code.swecha.org/Saikrishna_b/saikrishna_bikkumalla/-/commit/5588aa71cb6ddacf8ae9bfd67ac8b9bb51dd311b"
+    },
+    {
+      "project": "Bikkumalla  Sai Krishna / saikrishna_bikkumalla",
+      "message": "Update README.md",
+      "date": "2026-01-05",
+      "url": "https://code.swecha.org/Saikrishna_b/saikrishna_bikkumalla/-/commit/f2be1ad73ab96d2e1ab57edadc76c4e037c999f9"
+    },
+    {
+      "project": "Bikkumalla  Sai Krishna / saikrishna_bikkumalla",
+      "message": "Update README.md",
+      "date": "2026-01-05",
+      "url": "https://code.swecha.org/Saikrishna_b/saikrishna_bikkumalla/-/commit/ebbe5ab22e0917873a345b50567e971b85951279"
+    },
+    {
+      "project": "Internship / Team_Standup_Tracker",
+      "message": "feat: add React + Tailwind frontend",
+      "date": "2026-05-26",
+      "url": "https://code.swecha.org/internship/team_standup_tracker/-/commit/2438f5884e51ef5d52758c5a7db3996a23ab0be9"
+    },
+    {
+      "project": "Internship / Team_Standup_Tracker",
+      "message": "feat: add achievement badge SVGs to public assets",
+      "date": "2026-05-26",
+      "url": "https://code.swecha.org/internship/team_standup_tracker/-/commit/501659a2aaadbff723d756935cab2a33fd1b30b9"
+    },
+    {
+      "project": "Internship / Team_Standup_Tracker",
+      "message": "feat: integrate backend OIDC auth, split API endpoints, and UI improvements",
+      "date": "2026-05-28",
+      "url": "https://code.swecha.org/internship/team_standup_tracker/-/commit/9079b29273e3cc18a2c4b73f780a381433b012bc"
+    },
+    {
+      "project": "Internship / Team_Standup_Tracker",
+      "message": "feat: use correct weekly-performance endpoints and stream commits per day",
+      "date": "2026-05-29",
+      "url": "https://code.swecha.org/internship/team_standup_tracker/-/commit/71e4d20749a7f9fe4689f2241c05b1b8541e5d5e"
+    },
+    {
+      "project": "Internship / Team_Standup_Tracker",
+      "message": "feat: remove mentor group management and clean up unused routes and types",
+      "date": "2026-05-29",
+      "url": "https://code.swecha.org/internship/team_standup_tracker/-/commit/3555dab73943609d76cc0987a780b8dc6d877ba0"
+    },
+    {
+      "project": "Internship / Team_Standup_Tracker",
+      "message": "Merge branch 'feat/intern-batch-self-selection' into 'integration/dev-ui-rewrite'",
+      "date": "2026-05-29",
+      "url": "https://code.swecha.org/internship/team_standup_tracker/-/commit/a28560618358891302383c11492f4ddcb63b0eae"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "feat: implemented the back button feature in the Corpus mobile app",
+      "date": "2026-02-20",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/9146691a9f17590194873febfed70b64f1578904"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "Merge branch 'core-four' into 'develop'",
+      "date": "2026-04-16",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/cf94ea8d332f0fe8634fb3a493cd00afa5a2aa01"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "delete:removed code of the review page except the username button and profile pic",
+      "date": "2026-01-29",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/06367397e9998486cf5134972cc9cf55ab516ec0"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "feat: added the details of the record to the records page",
+      "date": "2026-01-29",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/e27d069c482842c591fa531937715b92d9f2beb1"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "feat: added url generation feature with copy to clipboard action",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/228a0e3bf0443f62bafbb98cdd8497054a35c8c4"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "feat: added media_type field and preview to record details",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/aa7608b03684ac8d865c8f1b9bf016e463adb09b"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "feat: added video player with modal to record details page",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/fcbf1123703b5c9efcf1d96cdf7b2136ecec0fd8"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "fix: added scroll to record detail view to show categories",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/6ed3dc6d6cd2a8649a74acad6bf480de04f32e31"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "fix: removed max-height to allow full scrolling",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/0daf315168e7e23454eaef9f2ad18426580a3f43"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "fix: added bottom padding to avoid overlap with navigation bar",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/cba1642dc8c2fe7a8c0a3de7430212d396af6427"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "fix: fixed document preview in recorddetail page",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/d70daa37ba3a77728cc9726800a5c5fefd02ac1f"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "feat:added copy url feature for each record in peer review",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/6ead507b77cee40846928b68f279b3b0e4798ed1"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "delete:removed code of the review page except the username button and profile pic",
+      "date": "2026-01-29",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/554fe2345670051e1e1a73f5c2314d3ebd1eb853"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "feat: added the details of the record to the records page",
+      "date": "2026-01-29",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/075e0945c6057c02ad717f958867b5f5b229349b"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "feat: added url generation feature with copy to clipboard action",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/a25885720e4bb0fea5f5fdec250a1634eb9d1fa9"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "feat: added media_type field and preview to record details",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/4aaeec78110990c5614bed700b926f26df338c99"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "feat: added video player with modal to record details page",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/6246d8e43634ac6ae916d19e61cdf6025d796a98"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "fix: added scroll to record detail view to show categories",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/7515386ba0eba550624492705f6729a562358745"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "fix: removed max-height to allow full scrolling",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/0ad6f4b497ee92ff2681ad6883cb2d5157ed1a7d"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "fix: added bottom padding to avoid overlap with navigation bar",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/b704b635e63a49dfaf10e82759154709f32a1891"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "fix: fixed document preview in recorddetail page",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/9e93dc1cd673332f093a9e314c42d4b0abb16940"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "feat:added copy url feature for each record in peer review",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/1df9bc0b31d139907d4d52ef4431f7c63074fa2f"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "feat: implemented the back button feature in the Corpus mobile app",
+      "date": "2026-02-20",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/f168573117d41a619e72ab9fde2c4cc96f605add"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "delete:removed code of the review page except the username button and profile pic",
+      "date": "2026-01-29",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/3de3367f693af02111ff693d602cc00c490087c6"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "feat: added the details of the record to the records page",
+      "date": "2026-01-29",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/a89ba684214de4e61b72d12ef4e0f9eee8179939"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "feat: added url generation feature with copy to clipboard action",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/a2ae0e895109b18b356881e16ef01dc66bf2ce5b"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "feat: added media_type field and preview to record details",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/c4f08b8e84fcffac6be5613937bceabd6f4aa914"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "feat: added video player with modal to record details page",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/bb8d3598c9c6c97bbe4c22440caeb3ce8a813473"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "fix: added scroll to record detail view to show categories",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/1b7a5a68624d432cf6b12667c6d28bebec0aa3c8"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "fix: removed max-height to allow full scrolling",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/081d36823dcbf3c14abd14964e510826d7054b8d"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "fix: added bottom padding to avoid overlap with navigation bar",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/04ec4b5ead37888a50c220ffeb8c303ea2dc16b7"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "fix: fixed document preview in recorddetail page",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/6062d4cea8b23f48bcaf79c6c807cfb7cac35beb"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "feat:added copy url feature for each record in peer review",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/e041fe54d8e47d876e764730685916df208546bb"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "delete:removed code of the review page except the username button and profile pic",
+      "date": "2026-01-29",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/b798700ad5b69596eb53ebe8f12479bb1f17d02f"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "feat: added the details of the record to the records page",
+      "date": "2026-01-29",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/0f25a88b1e5286af1bebed0844b8e98510f13c16"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "feat: added the details of the record to the records page",
+      "date": "2026-01-29",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/c5bf1c30fc98dae9007f95a6f9a2b917405d8c04"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "feat: added url generation feature with copy to clipboard action",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/c2d6284f8bd100b6fa3536a86aa1ae481a7e452e"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "feat: added media_type field and preview to record details",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/b11e08ba70c775b882cc272fe0edbdfd94400dfb"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "feat: added video player with modal to record details page",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/1771d9fc2ae4df5f196450278daab50d71db5f90"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "fix: added scroll to record detail view to show categories",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/7768f632650b6ac1191793d2452638f143d86c18"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "fix: removed max-height to allow full scrolling",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/857fd56efada60f73d14115ab4c4a4131b58cc48"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "fix: added bottom padding to avoid overlap with navigation bar",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/12aaab351db49b89d09b6c220335e5514d46cd25"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "fix: fixed document preview in recorddetail page",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/1ac14322a335719b92cc896303a22455fd31c981"
+    },
+    {
+      "project": "Corpus / Corpus Client App",
+      "message": "feat:added copy url feature for each record in peer review",
+      "date": "2026-01-30",
+      "url": "https://code.swecha.org/corpus/corpus-client-app/-/commit/81223800648072c3367777e46f68544e229bfac7"
+    },
+    {
+      "project": "Corpus / Corpus Server Platform",
+      "message": "feat: metadata-guided Rag initial implemntation",
+      "date": "2026-04-10",
+      "url": "https://code.swecha.org/corpus/corpus-server-app/-/commit/8eb85176e0d0419027560369b264082cfcf53d1e"
+    },
+    {
+      "project": "Corpus / Corpus Server Platform",
+      "message": "feat: metadata-guided Rag initial implemntation",
+      "date": "2026-04-10",
+      "url": "https://code.swecha.org/corpus/corpus-server-app/-/commit/7f8274587c507052be7a632bf6b9698852f8194e"
+    },
+    {
+      "project": "Corpus / Corpus Server Platform",
+      "message": "feat: metadata-guided Rag initial implemntation",
+      "date": "2026-04-10",
+      "url": "https://code.swecha.org/corpus/corpus-server-app/-/commit/ae43d2f5f8fbcab0cb525fa57ed3bd3c192902ad"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "fix(auth): prevent unauthorized role-based redirects on login",
+      "date": "2026-03-24",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/fae3b099d6dcf4c15c3e7bb719bfd9257b38b5b4"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "fix(auth): prevent unauthorized role-based redirects on login",
+      "date": "2026-03-24",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/77158e2e4c7c789a37fa661f30fb39bcba21a79f"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "fix(auth): prevent unauthorized role-based redirects on login",
+      "date": "2026-03-24",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/a797b9f305a320960425b9c7820059de8687d938"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "feat: added the food_preferences to the camp_signup page",
+      "date": "2026-03-22",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/9270426499e5c9cef47efd3ab0f6d4bff9255198"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Merge branch 'adding_food_preferences_in_camp_signup' into 'develop'",
+      "date": "2026-03-22",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/75d136395ac16a810721deeb86006c241f109266"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "fix: page redirection in the volunteer login",
+      "date": "2026-03-22",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/48857aebc93ac29fe59125d370b13d6a323f3f42"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "fix: page redirection in the in the volunteer login",
+      "date": "2026-03-22",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/8d993afca4a1c99b57467b20ab0078f71f3a82aa"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Merge branch 'develop' into 'fixing_the_redirection_in_volunteer_login'",
+      "date": "2026-03-22",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/c504becec57ff6721be2bf53a142f21d877393d2"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Merge branch 'fixing_the_redirection_in_volunteer_login' into 'develop'",
+      "date": "2026-03-22",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/8563320d682f20a2303ec67a4b4d44b49b6fc6d5"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "fix(auth): prevent unauthorized role-based redirects on login",
+      "date": "2026-03-24",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/0823b681c1fcfcc60ea18835ec82c580b1d56726"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Merge branch 'fixing_incorrect_role_based_redirection' into 'develop'",
+      "date": "2026-03-24",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/99c886a5c63d229c18cddab7f3a707f9a220a35b"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "feat : added the search option in the medicine list page",
+      "date": "2026-03-03",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/eeafc7a4aeaac4241cb3dd7aad5a546632a1672d"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "feat : added the search option in the medicine list page",
+      "date": "2026-03-03",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/be75b38d16d93272e875ab69f9094e757686545f"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "feat : added the search option in the medicine list page",
+      "date": "2026-03-03",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/c09bb5aec7b176bf9c08d2e0e3c5c719ff347cea"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "feat : added the search option in the medicine list page",
+      "date": "2026-03-03",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/a4fb31aafe4797035756bfa4cbe7746a9e65a5fb"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "feat : added the search option in the medicine list page",
+      "date": "2026-03-03",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/6febba043e81401540cccc7f0e35a843201dd54b"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Merge branch '210-feat-add-the-search-option-in-the-medicines-list' into 'develop'",
+      "date": "2026-03-03",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/9ca24f273046f88fe83a006ccc4d8d7e9d9f780c"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "add/search option in replace medicine by removing the dropdown",
+      "date": "2026-02-26",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/cd4703a28a71f8f41e399b7609717c56f6bef1a8"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "added the medicine id before the medicine name in the verify medicine and in the update prescription page",
+      "date": "2026-02-27",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/93b0604cb776bcfcdde31dbf7f999287653735e6"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Merge branch 'search_in_replace_medicine' into 'develop'",
+      "date": "2026-02-27",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/4a56579e66fa3f7c219b1d67ed236dbd3200ef99"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "feat: Added new page in volunteers that displayes the medicine list",
+      "date": "2026-02-27",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/ad45a249a357bd93f038f51a5fb8e62eb5e9f03a"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Added the Medicines List button in the home page",
+      "date": "2026-02-27",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/b4cd29cebc2a5848f1b68f3c3ea406f5ab213140"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Merge branch '189-add-the-medicines-pdf-list-download-in-the-volunteers-page' into 'develop'",
+      "date": "2026-02-27",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/4d5ea6aeab6e7da01c64539e55473ba70f2d3cb5"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Refact: Removed the drop down in the search medicine .Added search option with suggestions",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/fc823c12534e2aef851b937c84f38071b561a63a"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "refact:added no results found",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/04203aaca0a02d500e4614f9084ed6ae19e501bc"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Refact: Removed the drop down in the search medicine .Added search option with suggestions",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/496b98f0bd2b2728e63c45847ff0b96336dc15ab"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "refact:added no results found",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/0def006e64658f30ef21f128f389ccb4956503c2"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Merge branch 'remove-drop-down' into 'develop'",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/2dc7b3a64a9f077a13bcf99ff83b95aed29daaa6"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Refact: Removed the drop down in the search medicine .Added search option with suggestions",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/86b5bd614d07affc61469a00f63e42cd3afb4bf7"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "refact:added no results found",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/bae58ffe01650325b696761b08842137fd5621c7"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Refact: Removed the drop down in the search medicine .Added search option with suggestions",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/11274567991f8c19ca48557780599de0b79e9da0"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "refact:added no results found",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/cad34f1371c708ff5895c898d42010a07481da61"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Refact: Removed the drop down in the search medicine .Added search option with suggestions",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/f5eb849664553cbc88404bd35631b32d64e7808f"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Refact: Removed the drop down in the search medicine .Added search option with suggestions",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/5ea10a2278c1f2306a373290b99131b6a308bc1d"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "refact:added no results found",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/2e5b514a1f3ea1f6ec4a006492739a90f9013f25"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Refact: Removed the drop down in the search medicine .Added search option with suggestions",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/e146115fd9295f43f5385eca9db4559e25535c5d"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "refact:added no results found",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/3cf9a92ba68d943c5cf18a2629ee4a358cbdf38e"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Refact: Removed the drop down in the search medicine .Added search option with suggestions",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/98656402e0e80d7efe361a908d47cbefde99dcaf"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "refact:added no results found",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/658a10a371c10f625ba1b8ccb12469a5d4ed98ef"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "fix: add @capacitor/app dependency",
+      "date": "2026-02-17",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/438d526d1a4738153b0230f11e3de55ed32ae518"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "updated the package.json file",
+      "date": "2026-02-17",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/6a91b38201682a53fc437cd9fb259ec309897613"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Merge branch '200-feat-edge-to-edge-ui-and-mobile-gestures-in-capacitor-build' into 'develop'",
+      "date": "2026-02-17",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/2b93ff41e447737636f9d7608e3e58cd6313c03f"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "fix: fixed the back button issue in the mobile app",
+      "date": "2026-02-15",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/69ea673fac7631205c3bf13770dc65f15144461f"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "updated the package.json file",
+      "date": "2026-02-17",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/4b0c3259dcdb3cc76275e33066123931e3aefe1f"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "fix: fixed the back button issue in the mobile app",
+      "date": "2026-02-15",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/0f3d5cf06e87c86494c7bb00c420f582556a443b"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "fix: add @capacitor/app dependency",
+      "date": "2026-02-17",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/a7a18d350e5b98087896d7546d472f35e65de9be"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "updated the package.json file",
+      "date": "2026-02-17",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/f9eea2c43ec439641abaa34ba188e23297d28ba5"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "fix: fixed the back button issue in the mobile app",
+      "date": "2026-02-15",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/8ec2b65a29a5259550574213f58af904132dbc32"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "fix: fixed the back button issue in the mobile app",
+      "date": "2026-02-15",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/47ad0ccb139447f6c8cf0d659a92960708935a5b"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "updated the package.json file",
+      "date": "2026-02-17",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/099706e2bb13cc0c1efeff2a28c3a08787a9bc13"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Merge branch '200-feat-edge-to-edge-ui-and-mobile-gestures-in-capacitor-build' of https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite into 200-feat-edge-to-edge-ui-and-mobile-gestures-in-capacitor-build",
+      "date": "2026-02-17",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/4fce8a69b2bdc59a44f5a9ca40a59636dd786c2a"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "improved the error messages in conseling page",
+      "date": "2026-02-14",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/ebe3f35f2a7733c0dcbcf8d2a313dc44ac17e3e7"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Merge branch '152-improving-the-error-messages-in-the-counseling-page' into 'develop'",
+      "date": "2026-02-14",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/b543afba1069f6c26ac0d10a0a595038630abbe4"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Update file ADMIN_README.md",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/6fcf7f42ac12c7420698620e7db184d5abf129ff"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Update file ADMIN_README.md",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/309aa9f4a5fe3b1608c0dd4820f7ce12315ecac6"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Update file ADMIN_README.md",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/4995bd83ff21cc00942430b1eb696e2ed9ab29d2"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Update file ADMIN_README.md",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/ac77397e214e30dbe196d0c465d479cd79df531e"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Update file ADMIN_README.md",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/d6ac40db957f6b8ab11e2d9009954f8187524643"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Update file ADMIN_README.md",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/1bb31fcd3dab501c65a1d9b816ebcf6281f65d65"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Merge branch '131-feat-implementting-the-logout-feat' into 'develop'",
+      "date": "2026-02-11",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/06651a7f12475f6ecd618c0ecbca146ccfb41c02"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "implemented logout function for loging",
+      "date": "2026-02-10",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/2e97fde3ed8b7ab084d660cf921df963e2042186"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-Frontend",
+      "message": "Update file ADMIN_README.md",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-frontend-vite/-/commit/d11defc69692343de817746967cbb68833d6bfe1"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix(queue): resolve race conditions and optimize state machine wrapper",
+      "date": "2026-04-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/8094ec9754ac69aafdce6aac1f9c84082b2ba85f"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "refactor(queue): replace manual status validation with pytransitions",
+      "date": "2026-04-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/8cfb3aacf6496dedb825b0acfe6a243794f2573d"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix(queue): resolve race conditions and optimize state machine wrapper",
+      "date": "2026-04-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/5ad00d9dde48018dfac349b6084a786775ab719a"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "refactor(queue): replace manual status validation with pytransitions",
+      "date": "2026-04-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/a96a69621e5ff59bc331532e6c8dd17bfd57aab4"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix(queue): resolve race conditions and optimize state machine wrapper",
+      "date": "2026-04-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/edaadef95734c740ec7bce4d65be6ec56923bb2e"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "refactor(queue): replace manual status validation with pytransitions",
+      "date": "2026-04-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/76b766cb40fa63c66d6030b77068988e221fbe4c"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix(queue): resolve race conditions and optimize state machine wrapper",
+      "date": "2026-04-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/efaf4af0a80a83d52d2898593d1fb8b758539c62"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "refactor(queue): replace manual status validation with pytransitions",
+      "date": "2026-04-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/c131e01625a151899f969774897a0086368f7943"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "refactor(queue): replace manual status validation with pytransitions",
+      "date": "2026-04-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/1d9c6e2a72f8383c80bb0515137cdebcb23fccb6"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix(queue): resolve race conditions and optimize state machine wrapper",
+      "date": "2026-04-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/bebab94205414be375b7c92f5482fcad3da81fde"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "refactor(queue): replace manual status validation with pytransitions",
+      "date": "2026-04-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/bb17340b50c12c21d413afba45a2a85851bf1baf"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix(queue): resolve race conditions and optimize state machine wrapper",
+      "date": "2026-04-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/27b83693963a504e39e7ee16df76946f3af6370b"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "refactor(queue): replace manual status validation with pytransitions",
+      "date": "2026-04-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/f72bc6506cc64aa677e1d73858c6f55d5300c73c"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "Merge branch 'transitions_library' into 'develop'",
+      "date": "2026-04-25",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/d537d55fbcd7c24b813ba18777d92b358a0f4749"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "refactor(queue): replace manual status validation with pytransitions",
+      "date": "2026-04-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/999bae77266fdd89fc1ba8df60a7c4cc2eaf5492"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix(queue): resolve race conditions and optimize state machine wrapper",
+      "date": "2026-04-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/fb0d4bb314872d5114dcb25bd1da0eb63d2eab71"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "Merge branch 'develop' into 'issue79'",
+      "date": "2026-04-01",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/e7e2c5705b5d417ca770997170ffaf925a45cdb8"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "Merge branch 'issue79' into 'develop'",
+      "date": "2026-04-01",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/07694718cd5f95fa087725bce0335926fdad0e35"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "feat:Added food preferences in the signup for medical camp endpoint",
+      "date": "2026-03-21",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/004c91b2a81f37fe9e3cdfd28690b7f4d7446d55"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "refactor(medical-camp): unify field naming and customize signup JSON format",
+      "date": "2026-03-21",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/c25df1bb0e34262d83cb9de7b4d44149f713cf2d"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "refactored : Storing the data in json format",
+      "date": "2026-03-21",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/62c32af623e3c7975fb5b299e757191ffbe49860"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "refactor: Changed the breakfast and lunch type  from string to boolean and also changed the food_type to enum and also renamed it",
+      "date": "2026-03-21",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/d99d029e73f0322b005926b2c699dabf5dc024dd"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "refactor(consultation): replace manual queue state dictionary with transitions library machine",
+      "date": "2026-03-26",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/0401d8fe7abbcdb48703f3253c69213441780c61"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "refactor: adopt transitions library for consultation queue and fix pre-commit issues",
+      "date": "2026-03-26",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/9d3997fe83ee443ff1c32bb9cb6f6f29ba27a069"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "Merge branch 'develop' into 'issue79'",
+      "date": "2026-03-26",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/b0c27ca8ddf9e4981ffe59ed2ee65a60afc74560"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "refactor: adopt transitions library for consultation queue and fix pre-commit issues",
+      "date": "2026-03-26",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/68673b58b16943642a9625f13fdf64a379a9db31"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "Update 3 files",
+      "date": "2026-03-26",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/31a72fd535369331c652528c1f486b3e60acb1c5"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "refactor(queue): optimize state machine and fix race conditions",
+      "date": "2026-03-27",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/7080b163ab2318c004cdcac9f7d472bc4c6247b7"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "update: updated the CHANGELOG.md",
+      "date": "2026-03-27",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/e8535d44aad859ecc2225b7944b3620f7a1f6301"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix: fixed the error of db init when building the docker",
+      "date": "2026-03-21",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/bbd7fa6749bc0137999135eb9ba75674bc514904"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "Merge branch 'food_preferences_in_volunteer_signup' into 'develop'",
+      "date": "2026-03-21",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/5a235474be07ad3caed4e6abdcb63059f2a650f6"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "feat:Added food preferences in the signup for medical camp endpoint",
+      "date": "2026-03-21",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/bf0d3b4712e4e55768bd2dd56acd84ec5f4cd3f8"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "refactor(medical-camp): unify field naming and customize signup JSON format",
+      "date": "2026-03-21",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/347c7dc9f0f2c922aafe45147f6828c84175792a"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "refactored : Storing the data in json format",
+      "date": "2026-03-21",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/909bcd1fec9cb826f02c75ed237d7516348e622b"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "refactor: Changed the breakfast and lunch type  from string to boolean and also changed the food_type to enum and also renamed it",
+      "date": "2026-03-21",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/f08d47b72669669c2b3fccc7cb6c0d2c06a2dc59"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "Merge branch 'food_preferences_in_volunteer_signup' into 'develop'",
+      "date": "2026-03-21",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/58efe61a5a9ba33157bf1c881f4bec7249ef131a"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "Fix Alembic multiple heads conflict and db-init stale image issue",
+      "date": "2026-03-10",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/880b3832bee0c5a2446e210c9928eb399e672961"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "Merge branch '50-feat-add-food-preferances-in-for-the-volunteers-signup-opt-for-breakfast-opt-for-lunch-veg-non' into 'develop'",
+      "date": "2026-03-11",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/7a4b3e417628902f31ea67a0c0b9f0829ccf586d"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "feat:added the login functionality using the pook no or phone number",
+      "date": "2026-02-19",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/338b482ec3641fd672cd7dcf96c73d3ae22aa8b3"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "feat: added the food preferences in the signup for medicalcamp endpoint",
+      "date": "2026-03-06",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/a232c57600dd497c6519185071585e2908734e58"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "feat:added the login functionality using the pook no or phone number",
+      "date": "2026-02-19",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/205bcb16e5820eff0d6bfd5a94bc8e9e89c9102c"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "seeding issue files added",
+      "date": "2026-02-06",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/998c88bb67bbd1353248e25c7ae5b934ce86df00"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "improved the logs Co-authored-by: Vaishnavi  <vaishnavi04.prabhala@gmail.com>",
+      "date": "2026-02-07",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/39d85cef0904a265a0dc854f35b975946e1ac62d"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "improved the logs of the camp creation and camp editing logs more info is shown Co-authored-by: Vaishnavi  <vaishnavi04.prabhala@gmail.com>",
+      "date": "2026-02-07",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/03a76399f9e5bdd8b1f1ad804f09d7c6e76793f4"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix:improved the logs of the patient search and fixed the error when we search the patient in admin panel",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/5d98e3c57550975d090e77b541cf5d1aa0f684e0"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix:improved the tracking  logging details of the regestraion of patient in the volunteers page",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/f40d45cb67cf6a18e2118c7b366fa2d0da485f9c"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix:improved the log tracking of assigning doctor this shoes ids,and names of doctor and patient",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/e53ce60b4fd4fb6d45a3cf3ca26f6a58542ad540"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix:improved the log tracking of add prescription .all the details of new prescription is displayed",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/a7d0b5f1524520047eaa5be38c5f2fd3c4d0f943"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix:improved the log tracking of log out action",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/5b91e1d34d1c94060deae3f27d7685e82a4942d1"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix:added the path to store the logs in logs/app.log file",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/e3bb8b8e90d155a07b38b077163bb92ef578e3fd"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "deleted unnecessary files",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/4ec7728fa3fc7fc428fabade9ff3be7ca3a0b459"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "Remove phone update scripts from repository",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/cd10315482a1d0e773f8b07c27fa96d667fb8000"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "Remove debugging scripts from repository",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/a0a62b27121948f34a9d023cc25a3ed044b2bc7c"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "Remove utility scripts from repository",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/a0412d900a9cc13aa4a1f7f355dcb4179e8d0f7e"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "removed the duplicate code",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/a17299de62b0bd681f4e5a140aa7a0c21902ad23"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "refactor(logging): add patient logging helpers and reduce code by 84 lines",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/c2e4e058baf34eda9158a707cd9fbd39947223de"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "refactor: centralize audit logging with reusable helpers",
+      "date": "2026-02-09",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/ca8a4dd962e38b7049c06c6624abde5ab068fa2e"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "lintintg anf formatting",
+      "date": "2026-02-09",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/79136e2e66fe731583a23996733319891bcdba69"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix:fixed the network error when trying to login",
+      "date": "2026-02-09",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/ad0256b36f86c1694b0b26ef49a5517841e22edf"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "solved the merge conflicts in the consultations_routes.py",
+      "date": "2026-02-12",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/e6149f3c1e49e6cc4e849a30a0d10a4a5ea9eaf8"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "solved the merge conflicts in the consultation_factory.py",
+      "date": "2026-02-12",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/52b83b6002f718904ad8c8f63463bf584688fd80"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "Merge branch 'develop' into 'improving-the-logs'",
+      "date": "2026-02-12",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/aabacff6dfe74cd76edf75756cf97750831ec83f"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "refactor:removed the logout functionality",
+      "date": "2026-02-12",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/041a6adaa6f71c2b460348f8387cd93502aebe7d"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "Update file .gitignore",
+      "date": "2026-02-12",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/1fe912d43a0a21bb72350a3ba11c98a184915de3"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "seeding issue files added",
+      "date": "2026-02-06",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/0c3d337271fa93609689ed79268c60bef7bff55f"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "seeding issue files added",
+      "date": "2026-02-06",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/7a2dd7d0a2068d873dd3e3e67a7947f3ad0e5b28"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix:improved the logs of the patient search and fixed the error when we search the patient in admin panel",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/df8e3a9d81f8276ea8d7ef629b5acdad50ad2197"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix:improved the tracking  logging details of the regestraion of patient in the volunteers page",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/78083cde059d1c44e95ab51ec2dc3f19383e5853"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix:improved the log tracking of assigning doctor this shoes ids,and names of doctor and patient",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/fc167af4553b075faf4204d6bc402cfddf1a8a68"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix:improved the log tracking of add prescription .all the details of new prescription is displayed",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/4f11ef2676ce2704ac8b70ced8aa7b0816affe52"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix:improved the log tracking of log out action",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/0d3cdb81ea22dcdc8f7ca16c6ef06aa3e395b8b2"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix:added the path to store the logs in logs/app.log file",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/b6c53829ce6bea9a5ac067e18acfe2306c5af1aa"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "seeding issue files added",
+      "date": "2026-02-06",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/5667441474caabe2563bffec43040ccfcd115ab7"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "Merge branch 'develop' into 'improving-the-logs'",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/e5e9d1f69c9727dbf0c8a4f524ea791147a30e16"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "deleted unnecessary files",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/873023f2bea4102b0a74fecb15b96f156f223247"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "Remove phone update scripts from repository",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/de9459da6699677b09fe7de25fe3c0f89a4987de"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "Remove debugging scripts from repository",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/4e5c77f26328e80b7e72ff33df402994eed87aa3"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "Remove utility scripts from repository",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/526fd318d5f34bac7fd58e881f4829793900f5f3"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "removed the duplicate code",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/bb459544bb5b07a7aaa24b5d9ba4c7551ba3cb98"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "refactor(logging): add patient logging helpers and reduce code by 84 lines",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/0c11f4178feb248e20296d2324a08ac5df30327b"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "refactor: centralize audit logging with reusable helpers",
+      "date": "2026-02-09",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/b1e085d7db7aaaa94763ece64a25b7f6d306673c"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "lintintg anf formatting",
+      "date": "2026-02-09",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/5463863aaa2b084290b75a52a4ce7d0ef6a1de8f"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix:fixed the network error when trying to login",
+      "date": "2026-02-09",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/717e4978358dab6c52ebfcdf04cc5209a586f437"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "seeding issue files added",
+      "date": "2026-02-06",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/00102bf1bdbd9e38d56489dd2fbeaee14161a963"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "improved the logs Co-authored-by: Vaishnavi  <vaishnavi04.prabhala@gmail.com>",
+      "date": "2026-02-07",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/1ec81a6b2cc79416fb6b978c8f01eaa69732db3e"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "improved the logs of the camp creation and camp editing logs more info is shown Co-authored-by: Vaishnavi  <vaishnavi04.prabhala@gmail.com>",
+      "date": "2026-02-07",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/45332c1b622cecdd7fda9a3afeadab2a2466b03c"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix:improved the logs of the patient search and fixed the error when we search the patient in admin panel",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/e09c52cbb9c81daa628c70e73c82129540b65d23"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix:improved the tracking  logging details of the regestraion of patient in the volunteers page",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/4e98963d4d636fa3f863d6b1dd7d106de04591fc"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix:improved the log tracking of assigning doctor this shoes ids,and names of doctor and patient",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/fdab3525b7245176d8fd48c0f14017383bcad0e0"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix:improved the log tracking of add prescription .all the details of new prescription is displayed",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/c8170d45fbe878d60a1ae0e1317ac85269cd47cf"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix:improved the log tracking of log out action",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/517da600ee15cb13b5228868d6b649c3d02d2fd3"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix:added the path to store the logs in logs/app.log file",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/980e0e955416a6c3ac1b32bd18edfa2fc27723a5"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "deleted unnecessary files",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/d87d7d29595faf73efc08047f62d3591e589f350"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "Remove phone update scripts from repository",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/f678d76a55234a980b67cf9a1133ddb86855438a"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "Remove debugging scripts from repository",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/b131b8dccaa38b5eaa516a8dd9af2b0256d896b0"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "Remove utility scripts from repository",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/320888cd1eacde2ed902fa02c3ff6df5d079c0e0"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "removed the duplicate code",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/3c7ff043e05a2e459510aa816b55ba37844245f4"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "refactor(logging): add patient logging helpers and reduce code by 84 lines",
+      "date": "2026-02-08",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/b4e0e863c0d524d645aa9cb24619f5125f9003d0"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "refactor: centralize audit logging with reusable helpers",
+      "date": "2026-02-09",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/9aa16e2631e39d056b4558d023ab988aba112348"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "lintintg anf formatting",
+      "date": "2026-02-09",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/392e5cb0fa71a109d9991a511f08165e0bde578d"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "fix:fixed the network error when trying to login",
+      "date": "2026-02-09",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/3cc4a2da43ead81321b9ff2e4340774d5d11e42e"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "feat: Added volunteer tracking code",
+      "date": "2026-02-05",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/0e624a20dbf17d9703c19e4c150ae26ad4333c3d"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "Revert \"feat: Added volunteer tracking code\"",
+      "date": "2026-02-05",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/9f7710dcad4c8f46c1d165ff50320bf0b429f3d0"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "Merge branch 'Core-six' into 'develop'",
+      "date": "2026-02-05",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/c78a9d714f3a89cd601e3ab8a02daad2aed541b6"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "seeding issue files added",
+      "date": "2026-02-06",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/e474fa309eae91f57a505d9e4d884b4c0d8a3f10"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "improved the logs Co-authored-by: Vaishnavi  <vaishnavi04.prabhala@gmail.com>",
+      "date": "2026-02-07",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/7759f4557bb3615b63cbc79bbc04c17cfb3c1228"
+    },
+    {
+      "project": "HealthTech / Medical Camp / eHRS-backend",
+      "message": "improved the logs of the camp creation and camp editing logs more info is shown Co-authored-by: Vaishnavi  <vaishnavi04.prabhala@gmail.com>",
+      "date": "2026-02-07",
+      "url": "https://code.swecha.org/healthcare/medical-camp/ehrs-fastapi/-/commit/43c54826e925237fcda0e92127d78f35b3d5a205"
+    },
+    {
+      "project": "Tools / Intern Activity Tracker",
+      "message": "feat: add FastAPI backend",
+      "date": "2026-05-26",
+      "url": "https://code.swecha.org/tools/intern-activity-tracker/-/commit/2fd2940e77e5d0a3e91270ab5f284c4c49d257dd"
+    },
+    {
+      "project": "Tools / Intern Activity Tracker",
+      "message": "refactor: remove Streamlit, reorganize backend codebase",
+      "date": "2026-05-26",
+      "url": "https://code.swecha.org/tools/intern-activity-tracker/-/commit/2222a63f0be9e29d6ec9302caa6553472660bdcd"
+    },
+    {
+      "project": "Tools / Intern Activity Tracker",
+      "message": "feat: migrate to SQLite, add phases/team history, simplify auth & weekly performance",
+      "date": "2026-05-27",
+      "url": "https://code.swecha.org/tools/intern-activity-tracker/-/commit/697dcdea8e51962d701d7634d3e4e47bc47e53ba"
+    },
+    {
+      "project": "Tools / Intern Activity Tracker",
+      "message": "refactor: replace phases with teams across admin, roster, models & service",
+      "date": "2026-05-27",
+      "url": "https://code.swecha.org/tools/intern-activity-tracker/-/commit/b6823ab0423b93ae073fd8c1fc02d47adf1175bc"
+    },
+    {
+      "project": "Tools / Intern Activity Tracker",
+      "message": "docs: rewrite README, CHANGELOG, and CONTRIBUTING for FastAPI backend",
+      "date": "2026-05-27",
+      "url": "https://code.swecha.org/tools/intern-activity-tracker/-/commit/63ec8358b324e62c748642533b0de7321ce24508"
+    },
+    {
+      "project": "Tools / Intern Activity Tracker",
+      "message": "feat: add mentor-batch access control, role assignment, and user search",
+      "date": "2026-05-27",
+      "url": "https://code.swecha.org/tools/intern-activity-tracker/-/commit/47c9390f393ed489d16ab3bf11b55cb21d1bb6de"
+    },
+    {
+      "project": "Tools / Intern Activity Tracker",
+      "message": "refactor: split roster router into batches, teams, and members",
+      "date": "2026-05-27",
+      "url": "https://code.swecha.org/tools/intern-activity-tracker/-/commit/44af4340bc6c5bffa618a3c100e9604264291a98"
+    },
+    {
+      "project": "Tools / Intern Activity Tracker",
+      "message": "feat: split commits into separate endpoints and add GitLab OIDC auth",
+      "date": "2026-05-28",
+      "url": "https://code.swecha.org/tools/intern-activity-tracker/-/commit/e3bc2c08febcf7aee44771379eab185243272518"
+    },
+    {
+      "project": "Tools / Intern Activity Tracker",
+      "message": "Merge branch 'feat/intern-batch-self-selection' into 'dev'",
+      "date": "2026-05-28",
+      "url": "https://code.swecha.org/tools/intern-activity-tracker/-/commit/b082db0c79569a7ec97231d07130b7d63cf8a2e9"
+    },
+    {
+      "project": "Tools / Intern Activity Tracker",
+      "message": "feat: batch access control, hierarchical selector endpoints, and GraphQL weekly performance",
+      "date": "2026-05-29",
+      "url": "https://code.swecha.org/tools/intern-activity-tracker/-/commit/987688a0929999e7c2c3147c2114f42d588d40e8"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "fix: refactor sync-to-async bridge to use run_coroutine_threadsafe",
+      "date": "2026-04-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/31102ffd25deb0b151856059559022c2517b51fd"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "feat: implement secure GitLab OAuth2 authentication flow",
+      "date": "2026-04-23",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/fef7ee50131e48d6290c541ca2138be62004490c"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'feature/csv-import-batch-analytics' into 'feat/weekly-activity'",
+      "date": "2026-04-23",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/9a1d19bcb0a5cc5877e82aab0ccc4190c24015b3"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "feat :implemented RBAC (admin,intern)",
+      "date": "2026-04-23",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/7fe31095f96b3394174ded7fc34fcc084590a5c1"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "fix: redirect url",
+      "date": "2026-04-23",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/5f2ad40d33269f06a6def769144d1b4ba8d58e9e"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "fix: URL-encode redirect_uri and use st.link_button for login",
+      "date": "2026-04-23",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/39a1d1c88e098aff3ed541c5208aa28de980c5de"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "chore: allow and push .streamlit/secrets.toml",
+      "date": "2026-04-24",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/c4e927321c1051690fcedf125dc5457758b9cbbf"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'feat/weekly-activity' into 'dev'",
+      "date": "2026-04-24",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/e3e2839ef71da3bb7779e4ec38fc1a39d924fd23"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "fix: consolidate multiple event loops into a single global async bridge",
+      "date": "2026-04-25",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/fbac9cc932126db2abaf93c65741de846c85305c"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'upgrade_glab' into 'dev'",
+      "date": "2026-04-25",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/fa423cdc22b45f7b709203bccc0162608753aa47"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "refactor: removed the different types of input fields and  made it as the single csv upload",
+      "date": "2026-04-26",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/d8ddd5cfa3f836f72034a0ea07c6ba8949cc22e1"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "feat : implemented the data base using the SQLalchemy and used neon as the database",
+      "date": "2026-04-26",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/f255f247d2a08cb306b0a1ef31e039eb4b0c9229"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'csv_upgrade' into 'dev'",
+      "date": "2026-04-28",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/6a3a558a8948a00ded3a4bb037624c08911e1417"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "refactor: isolate Check Project Compliance featureRemoved all extraneous UI modules, backend services, DB roster logic, and associated tests to streamline the repository into single-purpose compliance checker tool",
+      "date": "2026-04-28",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/52905023d18064eebabbb60a046dd8fd26a8f88f"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'seperate_project_compilance' into 'dev'",
+      "date": "2026-04-28",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/0c3d469088892b0b42699800e80028767051668c"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "feat : checks the README.md,CONTRUBUTING.md,AGENT.md,USERMANUAL.md files and displayes",
+      "date": "2026-05-30",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/c5a7458174bd47ad13cb69b573605b97b1ae701a"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "fix : quality and tools not being scanned properly in the repo",
+      "date": "2026-05-30",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/92aa4c43be46a7d64d4cce38b6e894db40250d0d"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "fix : gitlab ciyml file check",
+      "date": "2026-05-30",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/b6e8714057c115715bbe6e502f0c0d0648c09cfd"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "feat : added the pre commit checks file tools check",
+      "date": "2026-05-30",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/65833bd5ff5e753cb29a81fbcec78734232b07e1"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "ui : improved ui of the batch projects and also now showing detailed project compilance for each repo on expand",
+      "date": "2026-05-30",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/bc6082614434c46267173a15c53e613be4092644"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "refactor: scope project to compliance-only, improve checks and docs",
+      "date": "2026-05-30",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/e966e9b19bacf95b350d8d107c729fd8669398a9"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "fix: align CI pipeline with pre-commit and fix linting errors",
+      "date": "2026-05-30",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/c6c57d06ba60af108c9424eb9f6435d5de9e4fbd"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "style: apply ruff format to test files",
+      "date": "2026-05-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/91bf1be706bc5fecad9c16f5b2eab0e42abfe99a"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'document_details' into 'main'",
+      "date": "2026-05-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/d94b08910a74485f89971bbb3a8853a10e360cec"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "fix: docker build",
+      "date": "2026-05-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/905cd5776a44f9c1cf7bac0041794a5abbc5d060"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "fix : docker file fix",
+      "date": "2026-05-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/e72579f0ba7ade5b4b70c0d26c0903ecc1d5822c"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'docker_fix' into 'main'",
+      "date": "2026-05-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/759dd1efbe412fc14d4379e24ab0bff5d177a11b"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "refactor: removed the sidebar url and access token display",
+      "date": "2026-05-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/8e9f78fc4450955f2c909f4c80dc9e908cdd51e3"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'docker_fix' into 'main'",
+      "date": "2026-05-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/a2b7a433635b1c1123c5ecebfebd4d8f66a32644"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "feat: adding the dx checks in the compilance checker mode",
+      "date": "2026-04-01",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/d53d3130ea9aaa529db096cf1519e12f739afbbf"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "refactor: python-gitlab to gllabflow",
+      "date": "2026-04-12",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/1280d5d11c4a1b4fa4f9fc39c7e5f81403ea4a8c"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "refactor: migration from python-gitlab to glabflow",
+      "date": "2026-04-12",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/5f3668a267e6a865ae36068cbfe6cf334a170b30"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "refactor: migration from python-gitlab to glabflow",
+      "date": "2026-04-12",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/600dfcad4e0a4218314f2b9882954c3b6a13156f"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "fix: fixed the test cases and pre commit hooks errors",
+      "date": "2026-04-12",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/25893c8f078f63c30d8425b6e39610be9a7616f3"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "fix: fixed the commits mixing issue",
+      "date": "2026-04-14",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/a0691ab6d2f00b8a3e962b34d2d332331e1cbbc8"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "fix: loading inconsistency in the teamleaderboard",
+      "date": "2026-04-15",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/cdd29414550b1ce8aaf68aee446dddc73d9402b2"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'try2-glabflow' into 'main'",
+      "date": "2026-04-16",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/1119108635335b416a5df6344ea9be7dfb188305"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "fix: resolve Streamlit asyncio crashes, unhardcode SSL, and drop private SDK usages test: replace test stubs with robust async mocks and restore missing docstrings",
+      "date": "2026-04-16",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/634b9368d6b81c4e4682df920c4e80e36e2288f9"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'issue_75' into 'main'",
+      "date": "2026-04-16",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/8601da317fd152a37f5e9b1ae30f8ce5c3e2cee2"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "feat(ui): improve heatmap alignment, sorting, and strict identity filtering",
+      "date": "2026-04-16",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/b4aa2441b4d33b1881ed9f7c69484735da0c23c4"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "refactor: mr are showed based on date of merged and improved the ui",
+      "date": "2026-04-18",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/59a93cd08914e9eb333864c5ccd26435cd076726"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "refactor : caching improved in the weekley performance tracker and also improved the error handling",
+      "date": "2026-04-18",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/66ad78fdbdb3a5ee1c35cbbd552840a3e5696b7b"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "fesat : Added new date selection ,weekwisw, single day , custom days selection. also added css for styling",
+      "date": "2026-04-21",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/b6c450fc4aed9be2f0debdf88cc5288a557469aa"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "regactor(ui): added the hourly tracking and also changed the complete ui",
+      "date": "2026-04-21",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/b7b537f35eeb1c810dc6d22aab054f986367b9c5"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'fetch/asigned' into 'feature-final'",
+      "date": "2026-03-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/566e51f9cfddd907bd4f2ffb47909e3a209feb7e"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'tests/coverage-improvements' into 'feature-final'",
+      "date": "2026-03-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/7bbbf44962f55c244aef768a254649daee9e678d"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "ci: align and harden pre-commit and gitlab-ci with security and i18n checks",
+      "date": "2026-03-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/9e2aa4613c57e9c931699fa53c7e24a55b9e6720"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "ci: stabilize pipeline and align hooks (vulture and audit skipped)",
+      "date": "2026-03-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/595a17a58d75244ca77d703ea959b14d6e4b7bdc"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "ci: stabilize pipeline and align hooks (vulture and audit skipped)",
+      "date": "2026-03-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/6f00660a1adf9811422317df7574772cdc5c3d24"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "ci: fix yaml syntax error in babel_job and audit_job",
+      "date": "2026-03-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/5a1aa42174a192077678ccf077d3aeab8db6c028"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "deleted: .coverage file deleted",
+      "date": "2026-03-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/48cd0f55a1b880f331c2920f659250047db2b439"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "ci: resolve babel usage error and implement stable pot generation",
+      "date": "2026-03-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/a6214b87858beba9c7f0f08b35d453a99c736ec1"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "ci: fix mypy duplication error and patch security vulnerabilities",
+      "date": "2026-03-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/161b3ccc0eb8abd1ee1deb71d4f3805ddcf65d35"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "ci:removed the unnecessary caching and implemented the hardlinking and no duplicate caching is stored",
+      "date": "2026-03-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/f2608236d2a4707d2d7abb71ce489e7d58950716"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "ci: introduce setup stage with shared .venv to eliminate redundant installs and speed up pipeline",
+      "date": "2026-03-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/5db499b2ec3582be5173a478e7df4cd23a553833"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "ci: implement hybrid cached-sync to fix 413 and no space left on device",
+      "date": "2026-03-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/9cb9932a7f3f7daa72c5fd249d972e10aca7c1fd"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'fixing-pipeline' into 'feature-final'",
+      "date": "2026-03-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/52f39b639895bad7f06d56bf8c2e6a0d1f3048ad"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "ci: align and harden pre-commit and gitlab-ci with security and i18n checks",
+      "date": "2026-03-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/fb2c7459ccdfdcfaa386ceadd1ed06acdf6026f0"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "ci: stabilize pipeline and align hooks (vulture and audit skipped)",
+      "date": "2026-03-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/988c1b97cc97215d7295d6cd4ab2be62f616036c"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "ci: fix yaml syntax error in babel_job and audit_job",
+      "date": "2026-03-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/1b515150b1db2f58c813b5caaa25669bf3a26fa2"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "deleted: .coverage file deleted",
+      "date": "2026-03-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/28f969fb8b9acde0568357798caafb9f1be37dc4"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "ci: resolve babel usage error and implement stable pot generation",
+      "date": "2026-03-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/aff94a1e8ccf4efcfaad33ac7ee03d876c6d6306"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "ci: fix mypy duplication error and patch security vulnerabilities",
+      "date": "2026-03-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/d78c653cc82c901b333413d58d0c9c7f028cd792"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "ci:removed the unnecessary caching and implemented the hardlinking and no duplicate caching is stored",
+      "date": "2026-03-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/084fa92d1df79e8874c0ddfe1874c60fc797b4b0"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "ci: introduce setup stage with shared .venv to eliminate redundant installs and speed up pipeline",
+      "date": "2026-03-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/06ff99288c21aa6e33e0fde92810adf6ee2117e6"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "ci: implement hybrid cached-sync to fix 413 and no space left on device",
+      "date": "2026-03-31",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/2b12803ee1a93fe27fb51e5121f9f72b8954b249"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "add: ignore badges in precommit",
+      "date": "2026-03-29",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/2e166caa297f9ce2818528f584bc81f1c0833982"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "add: ignore badges in precommit",
+      "date": "2026-03-29",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/460e798838cc813731041ce2f153dda61e6f641a"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'bad-issues' into 'feature-final'",
+      "date": "2026-03-29",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/be0b62119e3dffc6071e8ede4a71f47d59f2c71f"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "add: ignore badges in precommit",
+      "date": "2026-03-29",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/3809599cab9450e7394cfb18d7020938a253366a"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "update : updated the .gitignore",
+      "date": "2026-03-30",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/d9b2ca848bd22e54c950edac54d222129e980a41"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "refactor : Changes the button name from add new team to append new team",
+      "date": "2026-03-28",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/b2e1274ba19fe9fd696f89014b6d573bd9d2fa6b"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "feat: Added the detailed displying of the mr titles, issues titles and the commit messages in the detailed contrubutions section",
+      "date": "2026-03-28",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/d5214749befb3bd8ff15f2c4e69e33da95778f89"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "feat: detailed mr title,issue title ,commits messages in the detailed contrubuions section",
+      "date": "2026-03-29",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/94ab8f79a4b167dabc6f411cab2b457244d0790b"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "feat : displaying the time and date of the creation of the mr,issue and commit",
+      "date": "2026-03-29",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/82fb9373ea7fe74be3c6478331d241387d9521d9"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "feat: implemented the individual heat map in the detailed contrubution in the team leaderboard",
+      "date": "2026-03-29",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/bb374de746b94ad0dcda7ead3380f55df29e7237"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'badges/bhavitha' into 'feature-final'",
+      "date": "2026-03-29",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/126bc3011894935bb34d4e8199abb1e4a67ae9f5"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'vulture' into 'feature-final'",
+      "date": "2026-03-29",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/ffd889c034795ad4e511360314deaf45b28bf456"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "add: ignore badges in precommit",
+      "date": "2026-03-29",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/8f2b727eb7de79009a38eaa6e3b235922c7cb7b5"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'dev3-bhavitha' into 'team-dev3-productivity-leaderboard'",
+      "date": "2026-02-24",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/77aa9a137bfc68d6b9db38d927b582fa5e051914"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'dev3-bhavitha' into 'team-dev3-productivity-leaderboard'",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/b43ae496723979c189327b03a23970d5ac015bd4"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'harshavardhan' into 'team-dev3-productivity-leaderboard'",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/2272161eba959fc27c08558e7770530bad0ca117"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "fix: page reloading again and again when we move between pages it only reloads when we click the analysis button",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/8a896c599831a79c6c4227875c2a19fd95abf0be"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'sai_krishna' into 'team-dev3-productivity-leaderboard'",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/61a4d9bd2d8fde1fae64ab0ca5c6506387bbceca"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'sai_krishna' into 'team-dev3-productivity-leaderboard'",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/e46829f48b4b275a26f7a9576bf959d58382225a"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Revert \"Merge branch 'sai_krishna' into 'team-dev3-productivity-leaderboard'\"",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/64812330a49be4790b73c21df2178b5cc788c3ed"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "fix:fixed the syntax error in the team_leaderboard.py",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/2e9652e49c6dd1708cd7aa2cd49f2242e7fee586"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Revert \"Merge branch 'sai_krishna' into 'team-dev3-productivity-leaderboard'\"",
+      "date": "2026-02-25",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/f5c2f5f368f65d52a0495d5bde458214ef79a81c"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "fix:page reloading again and again when switched between the workspace and leaderboard analysis, changed the style of the buttons of the workspace and the leaderboard analysis, score graph moved to analyics page",
+      "date": "2026-02-26",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/445a1062ea2c59dffb906c83a1c10e2fa11942d7"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'team-dev3-productivity-leaderboard' into 'sai_krishna'",
+      "date": "2026-02-26",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/a61cbf551cf51e01e23f7d2b60d2ac299e08bb98"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'sai_krishna' into 'team-dev3-productivity-leaderboard'",
+      "date": "2026-02-26",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/94f1b98c03e5edacb971496b089a5825bd406f41"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'sai_krishna' into 'team-dev3-productivity-leaderboard'",
+      "date": "2026-02-26",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/1f2a853da0663da067403e5d905aa062e64adbd3"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "fixed the indentation error",
+      "date": "2026-02-26",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/58126d36f8757d10743198ba0e93f29da9e1ebb0"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "feat : added new columns for the assigned MR's open ,closed, merged",
+      "date": "2026-03-05",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/77763babcba41a169b78478e8a15487910242bf6"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "feat: implemented the date file filtering feat and also implemented the json file input for teams",
+      "date": "2026-02-21",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/a6a01fa35f095f3758cb7e22e65546517e35a262"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "fix:page reloading again and again when switched between the workspace and leaderboard analysis, changed the style of the buttons of the workspace and the leaderboard analysis, score graph moved to analyics page",
+      "date": "2026-02-26",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/7a70b9e0b8cfcc3f75e12ee9fb83cc81ec2b4101"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Revert \"Merge branch 'dev3-bhavitha' into 'team-dev3-productivity-leaderboard'\"",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/124dc49c2502b32f1a360630eade872d4d76306b"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'dev3-bhavitha' into 'team-dev3-productivity-leaderboard'",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/3f3fc889242060bd02533f06bf7467f1413bafa7"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'team-dev3-productivity-leaderboard' into 'harshavardhan'",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/7cfa1bbf7f44dc040e63d676add245d2166d3816"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'harshavardhan' into 'team-dev3-productivity-leaderboard'",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/8f4cec0b9391594a847dae3413f1f5ad87a2047c"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Revert \"Merge branch 'harshavardhan' into 'team-dev3-productivity-leaderboard'\"",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/68ceacf8d008363af94b48110769f562817fcfdc"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Updated Scoring Formula \u2014 Team Leaderboard",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/a02966e614c9de850802ef9245b7059025e7ac53"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "implemented : Display what filters are applied below the run leader board analytics button",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/13e40ad93a271d77113119954ee529e54f00697d"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "fixed the active filters display of the project filter",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/20d34313812f165792fa686101397334d2733987"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'sai_krishna' into 'team-dev3-productivity-leaderboard'",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/1b9b534416b34b9e42e143d0629640c2afab0db1"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'sai_krishna' into 'team-dev3-productivity-leaderboard'",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/edd69fd2c18113fed5657d526aa7caa058d0128d"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'dev3-bhavitha' into 'team-dev3-productivity-leaderboard'",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/615ffbb67dca4f01804f129608fcb5216e1a47c3"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "fix: fixed the bug related to the commits morning and afternoon",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/70aba7351f5c4d5faf7d9a21bef9859331ebe038"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "added new columns of assigned mr's and assigned issues",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/ba07fbab21e30dc81b7a486edd7165741eff2d75"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'sai_krishna' into 'team-dev3-productivity-leaderboard'",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/c166355761f05b5b8b01a9f424899240d0e0b7d8"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'sai_krishna' into 'team-dev3-productivity-leaderboard'",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/1b8f94ffea1e18550c1b5c20e62d6a94d67ef08e"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Updated Scoring Formula \u2014 Team Leaderboard",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/07d57076995f148a79144feaa68968b634289531"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "implemented : Display what filters are applied below the run leader board analytics button",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/5c97a98cd0cb04d8fb3ca1486fb24d67e0102251"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'dev3-bhavitha' into 'team-dev3-productivity-leaderboard'",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/c9ea6aab651863dbad57a23baf292cf529e11bf5"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "dolved some error",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/593ebaa02501a0c954176712d09937a5eff3e7df"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'sai_krishna' into 'team-dev3-productivity-leaderboard'",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/ad87860a5259e7165d018f3d2d8a8f757f4f3fd0"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'sai_krishna' into 'team-dev3-productivity-leaderboard'",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/1345dc68c8b011535dd4a24101d79b14bff84051"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Revert \"Merge branch 'harshavardhan' into 'team-dev3-productivity-leaderboard'\"",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/2991c394650a74a1136c86328629e15e6c5faa30"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "fixed the active filters display of the project filter",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/aca024a8509b00b940ce60383668d43b833906fd"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'dev3-bhavitha' into 'team-dev3-productivity-leaderboard'",
+      "date": "2026-02-24",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/39a4e5637646449e1e84829067bced81a471d94c"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "feat:team leader board basic implementation done",
+      "date": "2026-02-21",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/98122a80d3f604a9c01a94c17a67b05c28afde12"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'sai_krishna' into 'team-dev3-productivity-leaderboard'",
+      "date": "2026-02-21",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/a76625c98ab231148ff8afc85c744e6141972790"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'sai_krishna' into 'team-dev3-productivity-leaderboard'",
+      "date": "2026-02-21",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/fd5f29afc6fa0ef6cd0a1bef4a250d310847a9f0"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "feat: implemented the date file filtering feat and also implemented the json file input for teams",
+      "date": "2026-02-21",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/5512cbcb833404253ece9e8716746fa1c7372fa5"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'sai_krishna' into 'team-dev3-productivity-leaderboard'",
+      "date": "2026-02-21",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/9bce2117aa70a7439194c9b94660027abc599e1c"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'sai_krishna' into 'team-dev3-productivity-leaderboard'",
+      "date": "2026-02-21",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/cb47d81afb4c797cb27968d72bb9b90aa983b934"
+    },
+    {
+      "project": "Tools / gitlab-compliance-checker",
+      "message": "Merge branch 'dev3-bhavitha' into 'team-dev3-productivity-leaderboard'",
+      "date": "2026-02-22",
+      "url": "https://code.swecha.org/tools/gitlab-compliance-checker/-/commit/1b2eacee91a551785d0b51bd6ed1ead3ee728414"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "Refactor: Remove deprecated Project Compliance Checker and fix Admin UI KeyError Removed all compliance-related codebase (UI, services, obsolete tests) and updated the roster service to include batch_name and id to resolve the Admin dashboard DataFrame crash.",
+      "date": "2026-04-28",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/cca0c3ac5339e59d672ac3c59bd421b236caafa9"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "Merge branch 'remove_project_compilance' into 'main'",
+      "date": "2026-04-28",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/a0d44954d97868eed7a3d0795460cbffa11c847f"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "refactored : commits now uses global username and email matching and uses the authored time for time accuracy",
+      "date": "2026-04-28",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/8fc8fcf63d0dd6d04c97bc8f1769d095bd2efaaf"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "refactor: improved the ui and accuracy of the commits",
+      "date": "2026-04-29",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/9e05848249c1ce8104f854e465244b42e2d90c00"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "refactor(ui): improved the ui of commits,mr,issues in team leaderboard",
+      "date": "2026-04-29",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/a45e134bcb79dd8a1d7c47f52bc64191a42f4fb7"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "feat: group url members fetching",
+      "date": "2026-05-01",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/8608c3776f42b5373e17694c94b00525dfb2d60d"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "refactor : from offset to keyset pagenation",
+      "date": "2026-05-02",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/45f3754e346929cfb5d84589b10644d723bfade2"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "fix: improved the error messages and also fixed the edit failure in the admin roster management",
+      "date": "2026-05-06",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/a35db5c2ef3391709357504ac44dc4ba77f7fa29"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "feat: added the corpus contrubution to the team leaderboard",
+      "date": "2026-05-06",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/25db16546920b46dbbf440d14fa0b65f261469d7"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "feat : added new excel download option that will show all the individual contrubutions",
+      "date": "2026-05-06",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/2b733110d071611fbfc3718d0d5c47896675f48b"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "fix: time spent is fetching and the time spent is also added to the team leaderboard",
+      "date": "2026-05-07",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/fa4b93b7b00d4840ab161588f2ccc872e538c305"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "Merge branch 'attendance' into 'dev'",
+      "date": "2026-05-07",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/e6757a936d50532486ed5e5e6f31f4764393fa17"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "fix: ui breaking when coustom range dates are selected more than 9 days",
+      "date": "2026-05-08",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/7a9bc77b5d4a4e266828b77ebdc32a23ca904dda"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "Merge branch 'weekly_ui_fix' into 'dev'",
+      "date": "2026-05-12",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/792720c4b9eb072ab36e2e1d92c0e42334cb133f"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "fix: time logs improved but needs more accuracy",
+      "date": "2026-05-12",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/28d1800e4fc71ecac4f767f768721d5919d977d1"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "fix: time logs improved but needs more accuracy",
+      "date": "2026-05-12",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/e68ffade43284f6f940a533b3df9100cee222780"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "feat: new selection types is added to batch Analytics and Ranking and compilance tracker",
+      "date": "2026-05-12",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/9f91c3ca10ed796ce03872caf762bdc74dd42c62"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "feat: new selection types is addes to weekly performance tracker",
+      "date": "2026-05-12",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/e5e7173048609d3edbcb62f9ea9ceb02651835e3"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "fix: error while fetching the corpus user name",
+      "date": "2026-05-13",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/277802054f938419d1b036c7b7afeaa213caf97b"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "rename : renamed gitlab compilance checker into internship activity tracker",
+      "date": "2026-05-13",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/1c0cbf78983b3128cc064c009f3fc233af66de9b"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "fix : timespents are accurately fetched and also provided the links",
+      "date": "2026-05-13",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/ab3b7e6a22c671ee9325d0982aacc5840db4f51d"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "fix : fixing the lint job failure",
+      "date": "2026-05-14",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/9e1a9f459e8276392f5731c14b1589c83e1719f7"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "fix : cicd pipelins failing for tests and test cases formatting",
+      "date": "2026-05-14",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/920bfe81a4c1d56474f85bedfcaf9e92304c95dc"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "Merge branch 'improving_time_logs' into 'dev'",
+      "date": "2026-05-14",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/61b04fc497a8d6b3e4fc9d2811416192760db003"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "Merge branch 'improving_time_logs' into 'dev'",
+      "date": "2026-05-14",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/be60bfc4f4a4d7754ea4ab28b72e972a4f0dcf40"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "refactor : implemented the uv loop ,pagenation-false, fanout",
+      "date": "2026-05-15",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/e934e1e6156c908d925a6c5fb713615948e80811"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "refactore : using the graphql for fetching the projects ,mr,issues except commits in the profile, batch analysis",
+      "date": "2026-05-15",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/786b3af9a9c102da0ec1862a6d03b7069aaabf2b"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "refactor : using the graphql in the weekly performance tracker",
+      "date": "2026-05-16",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/e5c72629758ec0f220262f8e9d95854d7262aa53"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "feat: implementend the cache for the commits",
+      "date": "2026-05-19",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/7206787b72d186da47be3b29996bf88dd7ec0a0c"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "refactor: implemented the graphql in users.py",
+      "date": "2026-05-19",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/ad458da4cad996798657a3422f9305539feb1977"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "feat: delete batch option",
+      "date": "2026-05-19",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/8e2443bf06b3c8d27cec67bd1d2351c776ed3fb5"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "Merge branch 'glabflow_upgrade' into 'dev'",
+      "date": "2026-05-19",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/1ecfefa3ddf01ea20bdeb18faaba6eb6d1d95e7c"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "Merge branch 'glabflow_upgrade' into 'dev'",
+      "date": "2026-05-19",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/8295d42934ce544af6e0913dc7aeb056614f8c6a"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "test : improved the test coverage 86%",
+      "date": "2026-05-19",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/f13a34f98861a4bb73c2ae4a0741c5db3be2a0a9"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "test: improved the test coverage to 100%",
+      "date": "2026-05-20",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/178423d3006ce99d4008df41a517be4d6182c794"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "Merge branch 'glabflow_upgrade' into 'dev'",
+      "date": "2026-05-20",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/61557e1e1a67e7a25cc83fade37b48e8f2924c16"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "Merge branch 'glabflow_upgrade' into 'dev'",
+      "date": "2026-05-22",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/b6732d6fd15389f33a693761712946a14980a3ca"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "feat : weekly performance tracker report download option",
+      "date": "2026-05-23",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/e7cd84474b244e82d51e722ae0012b0188743c6f"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "refactor: 4hr is red , 2hr is yellow",
+      "date": "2026-05-23",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/390b64781b2237e6193eedda475ee7327945368f"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "fix : docker file updated",
+      "date": "2026-05-25",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/adbf7016c8e1e46cb92d8cc178238409b4f5f188"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "Merge branch 'glabflow_upgrade' into 'dev'",
+      "date": "2026-05-25",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/b28a0c06f6c171af0644dc2f72ee87083d1ebd45"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "Merge branch 'glabflow_upgrade' into 'dev'",
+      "date": "2026-05-25",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/82cb04475a6d13103b3e26c2fa966a25bf55f984"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "updated the entrypoint.sh",
+      "date": "2026-05-25",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/adf3f168b4cea220f927ac7d80b0efd8f98da489"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "fix: batches displayed in members table",
+      "date": "2026-05-30",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/6afcad3beff4c2a5e817b06faacfbf3683b6abfd"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "refactor: commits fetching optimization project wise per user",
+      "date": "2026-06-01",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/2c86b939d68c7053744f56688aa9a41339f7536d"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "fix: docker build issues",
+      "date": "2026-06-01",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/e8c2db9715f6577711c9163eca6c5590985dd13a"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "docker: fix port issue",
+      "date": "2026-06-01",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/169801a91feae902b853fb49b4fb3a23f2b79b14"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "fic : application running using the docker",
+      "date": "2026-06-01",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/b8cccaf7bbeeb3251dce3d6c37f93a854a183228"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "fix: handle Coolify multiline secrets",
+      "date": "2026-06-02",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/dc51e5372295cdc0b9767a3ed14264eeb857a955"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "entryppoint.sh fix",
+      "date": "2026-06-02",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/050fa654f92f1bbabf435163f2f56776ede0d36f"
+    },
+    {
+      "project": "Tools / Internship Activity Tracker",
+      "message": "Merge branch 'dev' into 'main'",
+      "date": "2026-06-09",
+      "url": "https://code.swecha.org/tools/internship-activity-tracker/-/commit/957144d6b7bfc4633592ab06a44ab9cceaccde3a"
+    },
+    {
+      "project": "Summer of AI - 2025 / Profiles",
+      "message": "Merge branch 'Saikrishna_b-main-patch-f4a8' into 'main'",
+      "date": "2026-01-05",
+      "url": "https://code.swecha.org/soai2025/profiles/-/commit/d7cb9a91672494cbfc95d4cbae1875dd5f84b2fd"
+    },
+    {
+      "project": "VISWAM / admin / Internships / Custom Agents",
+      "message": "Merge branch 'AG1' into 'main'",
+      "date": "2026-03-05",
+      "url": "https://code.swecha.org/viswam/admin/internships/custom-agents/-/commit/b23f0ad5f489ad340996e0934b1759096412d832"
+    },
+    {
+      "project": "VISWAM / admin / Internships / API Collection",
+      "message": "Merge branch 'submission/habeeb-unissa' into 'main'",
+      "date": "2026-01-24",
+      "url": "https://code.swecha.org/viswam/admin/internships/api-collection/-/commit/c0f19a34347d1b1605a212c2fa08f04a62bb9739"
+    },
+    {
+      "project": "VISWAM / admin / Internships / API Collection",
+      "message": "Merge branch 'fix-organize-api-collections' into 'main'",
+      "date": "2026-01-24",
+      "url": "https://code.swecha.org/viswam/admin/internships/api-collection/-/commit/9242639c7548d5c1bc280bf9115651bfcda2683d"
+    },
+    {
+      "project": "VISWAM / admin / Internships / API Collection",
+      "message": "Merge branch 'fix-organize-api-collections' into 'main'",
+      "date": "2026-01-24",
+      "url": "https://code.swecha.org/viswam/admin/internships/api-collection/-/commit/cf9c5d995accc1709e88540bfda2906b1d0620d8"
+    },
+    {
+      "project": "VISWAM / admin / Internships / API Collection",
+      "message": "Merge branch 'submission/pravena' into 'main'",
+      "date": "2026-01-25",
+      "url": "https://code.swecha.org/viswam/admin/internships/api-collection/-/commit/74c0cd8a0282b348e00157524cf1237f23008e3b"
+    },
+    {
+      "project": "VISWAM / admin / Internships / API Collection",
+      "message": "Merge branch 'submission/mukthanand' into 'main'",
+      "date": "2026-01-24",
+      "url": "https://code.swecha.org/viswam/admin/internships/api-collection/-/commit/2ec1ba8551f20fbe38cb62a3b8daff7a8761ce62"
+    },
+    {
+      "project": "VISWAM / admin / Internships / API Collection",
+      "message": "Merge branch 'submission/koushik-18' into 'main'",
+      "date": "2026-01-24",
+      "url": "https://code.swecha.org/viswam/admin/internships/api-collection/-/commit/55f0f2f24a853001994a370baa785ef28261172a"
+    },
+    {
+      "project": "VISWAM / admin / Internships / API Collection",
+      "message": "Merge branch 'sai_2' into 'main'",
+      "date": "2026-01-24",
+      "url": "https://code.swecha.org/viswam/admin/internships/api-collection/-/commit/02cd53d9b140818da706f42b1203c36c9aaba3c0"
+    },
+    {
+      "project": "VISWAM / admin / Internships / API Collection",
+      "message": "Merge branch 'sai_2' into 'main'",
+      "date": "2026-01-24",
+      "url": "https://code.swecha.org/viswam/admin/internships/api-collection/-/commit/a934a8cdfd954c410e8ae62d632d798add03f507"
+    },
+    {
+      "project": "VISWAM / admin / Internships / API Collection",
+      "message": "Merge branch 'submission/abhilash' into 'main'",
+      "date": "2026-01-24",
+      "url": "https://code.swecha.org/viswam/admin/internships/api-collection/-/commit/5485bf33ee8752bba9169413851ab7d54a77edc7"
+    },
+    {
+      "project": "VISWAM / admin / Internships / API Collection",
+      "message": "Merge branch 'submission/saikrishna' into 'main'",
+      "date": "2026-01-23",
+      "url": "https://code.swecha.org/viswam/admin/internships/api-collection/-/commit/b343dd2f9a10b60ceb19eac33e132dcfd0cc3126"
+    },
+    {
+      "project": "VISWAM / admin / Internships / API Collection",
+      "message": "Merge branch 'submission/saikrishna' into 'main'",
+      "date": "2026-01-23",
+      "url": "https://code.swecha.org/viswam/admin/internships/api-collection/-/commit/8bf564064ee5ef4a602c7426a0984697330a2b97"
+    },
+    {
+      "project": "VISWAM / admin / Internships / API Collection",
+      "message": "Revert \"Merge branch 'submission/saikrishna' into 'main'\"",
+      "date": "2026-01-23",
+      "url": "https://code.swecha.org/viswam/admin/internships/api-collection/-/commit/ee8a4e7284dbdbc27fe79c14b91b7094cf527835"
+    },
+    {
+      "project": "VISWAM / admin / Internships / EHRS-API-collection",
+      "message": "Merge branch 'V6' into 'main'",
+      "date": "2026-01-27",
+      "url": "https://code.swecha.org/viswam/admin/internships/ehrs-api-collection/-/commit/a3dd5479b1407e88775adc054d0386dce93dff03"
+    },
+    {
+      "project": "VISWAM / admin / Internships / EHRS-API-collection",
+      "message": "Merge branch 'V6' into 'main'",
+      "date": "2026-01-27",
+      "url": "https://code.swecha.org/viswam/admin/internships/ehrs-api-collection/-/commit/90c2bcafc075fe0a0deeaa5eb613d122f4ce1960"
+    },
+    {
+      "project": "VISWAM / admin / Internships / Corpus API Collection",
+      "message": "Merge branch 'v6' into 'main'",
+      "date": "2026-01-25",
+      "url": "https://code.swecha.org/viswam/admin/internships/corpus-api-collection/-/commit/b6163e046b39052b90145302e15453c2cd5b54e3"
+    },
+    {
+      "project": "VISWAM / admin / Internships / Corpus API Collection",
+      "message": "Merge branch 'v6' into 'main'",
+      "date": "2026-01-25",
+      "url": "https://code.swecha.org/viswam/admin/internships/corpus-api-collection/-/commit/fc426e5f599bb62360efd891986b83a36299a981"
+    },
+    {
+      "project": "VISWAM / admin / Internships / Corpus API Collection",
+      "message": "Merge branch 'v6' into 'main'",
+      "date": "2026-01-25",
+      "url": "https://code.swecha.org/viswam/admin/internships/corpus-api-collection/-/commit/54d6e85d633af76ff4aa4a753640950b6133410a"
+    },
+    {
+      "project": "VISWAM / admin / Internships / Corpus API Collection",
+      "message": "Merge branch 'v6' into 'main'",
+      "date": "2026-01-25",
+      "url": "https://code.swecha.org/viswam/admin/internships/corpus-api-collection/-/commit/79be291ff8e5c4d0a2e97e98384ae7ad2c10f8fd"
+    },
+    {
+      "project": "VISWAM / admin / Internships / Corpus API Collection",
+      "message": "Merge branch 'v6' into 'main'",
+      "date": "2026-01-25",
+      "url": "https://code.swecha.org/viswam/admin/internships/corpus-api-collection/-/commit/07e944be547468f9d31ff555af8d1e10e4146c61"
+    },
+    {
+      "project": "VISWAM / admin / Internships / Corpus API Collection",
+      "message": "Merge branch 'v6' into 'main'",
+      "date": "2026-01-25",
+      "url": "https://code.swecha.org/viswam/admin/internships/corpus-api-collection/-/commit/8f9f06b73f50d777cc4532cd9c17926e8329c6e5"
+    },
+    {
+      "project": "Mukthanand Reddy M / Corpus Bruno Collections",
+      "message": "Merge branch 'saikrishna' into 'main'",
+      "date": "2026-01-25",
+      "url": "https://code.swecha.org/Mukthanand21/corpus-bruno-collections/-/commit/1ca79f423600d3f9927b082ef926003ce216557d"
+    },
+    {
+      "project": "Mukthanand Reddy M / Corpus Bruno Collections",
+      "message": "Merge branch 'saikrishna' into 'main'",
+      "date": "2026-01-25",
+      "url": "https://code.swecha.org/Mukthanand21/corpus-bruno-collections/-/commit/03e8cde2284f7f154b8184e119fd296fa221c6b4"
+    },
+    {
+      "project": "VISWAM / admin / Internships / ICFAI IP-2 Hackathon 17-jan / polisense",
+      "message": "Update file .gitignore",
+      "date": "2026-01-18",
+      "url": "https://code.swecha.org/viswam/admin/internships/icfai-ip-2-hackathon-17-jan/polisense/-/commit/d41002e21d8256babb093122563aac8f1f1a702d"
+    },
+    {
+      "project": "VISWAM / admin / Internships / ICFAI IP-2 Hackathon 17-jan / polisense",
+      "message": "Merge branch 'ide_setup' into 'main'",
+      "date": "2026-01-18",
+      "url": "https://code.swecha.org/viswam/admin/internships/icfai-ip-2-hackathon-17-jan/polisense/-/commit/c799f5ee4c74abab0af380e89791b2a4c5c26be6"
+    },
+    {
+      "project": "VISWAM / admin / Internships / ICFAI IP-2 Hackathon 17-jan / polisense",
+      "message": "Merge branch 'ide_setup' into 'main'",
+      "date": "2026-01-18",
+      "url": "https://code.swecha.org/viswam/admin/internships/icfai-ip-2-hackathon-17-jan/polisense/-/commit/1b4617e6d6577680f194d9800fda16c4c07b0647"
+    },
+    {
+      "project": "VISWAM / admin / Internships / ICFAI IP-2 Hackathon 17-jan / polisense",
+      "message": "Merge branch 'ide_setup' into 'main'",
+      "date": "2026-01-18",
+      "url": "https://code.swecha.org/viswam/admin/internships/icfai-ip-2-hackathon-17-jan/polisense/-/commit/56ee8dced7687ceec3a10d6d1a290e890d326c7e"
+    },
+    {
+      "project": "VISWAM / admin / Internships / ICFAI IP-2 Hackathon 17-jan / polisense",
+      "message": "Merge branch 'ide_setup' into 'main'",
+      "date": "2026-01-18",
+      "url": "https://code.swecha.org/viswam/admin/internships/icfai-ip-2-hackathon-17-jan/polisense/-/commit/6129951b4de34fa3a8bbc5a2d1d9c7bc0faff925"
+    }
+  ]
+}
