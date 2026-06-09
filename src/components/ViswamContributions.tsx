@@ -20,8 +20,8 @@ const ViswamContributions = () => {
   const [open, setOpen] = useState<Category>(null);
   const [query, setQuery] = useState("");
 
-  const items = useMemo(() => {
-    if (!open) return [] as Array<{ primary: string; secondary?: string; meta?: string; url: string }>;
+  const items = useMemo<Array<{ primary: string; secondary?: string; meta?: string; url: string }>>(() => {
+    if (!open) return [];
     const q = query.toLowerCase();
     if (open === "projects") {
       return data.projects
